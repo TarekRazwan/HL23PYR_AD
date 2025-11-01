@@ -1,0 +1,21 @@
+# OS / Python
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# NEURON build outputs
+x86_64/
+*.o
+*.so
+*.dylib
+*.nrn
+mod_func.*
+
+# iCloud placeholders
+*.icloud
+
+# Run outputs
+output/
+
+# Local backups
+Previous version/
