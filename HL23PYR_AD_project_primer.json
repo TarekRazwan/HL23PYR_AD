@@ -1,0 +1,260 @@
+{
+    "project_title": "HL23PYR-AD: A Biophysically Detailed Human L2/3 Pyramidal Neuron Model with Alzheimer’s Disease Alterations",
+    "version": "2025-10-31",
+    "owner": {
+      "name": "Tarek Khashan",
+      "program": "PhD, Neuroscience & Behavior (SUNY Downstate)"
+    },
+    "high_level_overview": "Build, validate, and analyze a single human Layer 2/3 pyramidal (L2/3 PYR) neuron model from Allen Cell Types data (Cell ID 531526539) in NEURON/NetPyNE. Establish a solid healthy baseline (passive properties, sag, FI and VI curves), then apply Alzheimer’s disease (AD) changes (ion-channel, synaptic, tonic inhibition) grounded in literature. Validate with EFEL, compare Healthy vs AD, and keep the pipeline NetPyNE-centric and clean.",
+    "goals": [
+      "Construct a morphologically and biophysically accurate healthy HL23PYR model reproducing human-target features (resting Vm, rheobase, FI and VI slopes, sag ratio, spike waveform).",
+      "Integrate AD-specific changes (NaTg/Nap ↑; Kv3.1/SK/Ih ↓; AMPA/NMDA ↓; synaptic-marker–guided loss; tonic inhibition changes) in a principled way.",
+      "Validate both healthy and AD variants using EFEL; quantify differences (rheobase, FI slope, sag, AP width/amplitude).",
+      "Maintain code quality (clean structure, error handling, reproducibility) and adhere to NetPyNE-first implementation choices."
+    ],
+    "scientific_rationale": {
+      "summary": "AD features synaptic loss/dysfunction, altered E–I balance, and intrinsic hyperexcitability. A biophysically grounded single-cell model lets us isolate causal roles of specific channel/synaptic changes in early disease.",
+      "key_evidence": [
+        "Selective declines in synaptic markers (e.g., VGLUT1, PSD95, VIAAT, cholinergic and SST markers) linked to cognition.",
+        "Reports of glutamatergic/GABAergic imbalance and altered intrinsic conductances (NaT/Nap, Kv3.1, SK, Ih) consistent with hyperexcitability.",
+        "Human L2/3 PYR optimization strategies (e.g., Yao et al.) anchor healthy targets and kinetics."
+      ]
+    },
+    "model_logic_and_components": {
+      "platforms": ["NEURON", "NetPyNE", "EFEL (feature extraction)"],
+      "morphology_and_data": {
+        "cell_source": "Allen Cell Types Database — Human L3 PYR, Cell ID 531526539",
+        "reference_models": ["Allen biophysical-perisomatic template", "Human PYR models in Cell Reports (Yao et al.)"]
+      },
+      "biophysical_mechanisms": {
+        "ion_channels_mod_files": [
+          "NaTg.mod", "Nap.mod", "Kv3_1.mod", "K_P.mod", "K_T.mod",
+          "SK.mod", "Ih.mod", "ProbAMPANMDA.mod", "epsp.mod", "tonic.mod"
+        ],
+        "hocs": ["NeuronTemplate_HL23PYR.hoc", "biophys_HL23PYR.hoc"],
+        "python_wrapper": "cellwrapper.py"
+      },
+      "synapses": {
+        "excitatory": "AMPA/NMDA (ProbAMPANMDA.mod)",
+        "inhibitory": "GABAA (Exp2Syn or equivalent in hoc), plus tonic inhibition (tonic.mod)",
+        "tonic_inhibition": "Primarily apical dendrites in AD variant (tunable)"
+      },
+      "stimulation_protocols": {
+        "current_steps_pA": "≈ −110 to +310 pA (Allen sweeps ~31–52)",
+        "healthy_rheobase_target_pA": 170,
+        "feature_targets": [
+          "Resting Vm ≈ −75.8 mV",
+          "Rheobase ≈ 170 pA",
+          "Firing rate ~9 Hz at higher steps; FI slope ≈ 0.14 spikes/pA",
+          "Input resistance ≈ 100 MΩ; τ ≈ 17.8 ms",
+          "Adaptation Index ≈ 0.075; Upstroke:Downstroke ≈ 2.89"
+        ]
+      }
+    },
+    "ad_pathophysiology_mapping": {
+      "ion_channel_changes": [
+        {"mechanism": "NaTg", "gbar_change": "+20%", "vshiftm": "+2 mV", "slopem": "+20%"},
+        {"mechanism": "Nap", "gbar_change": "+30%"},
+        {"mechanism": "Kv3.1", "gbar_change": "−50%"},
+        {"mechanism": "SK", "gbar_change": "−40%"},
+        {"mechanism": "Ih", "gbar_change": "−30%"}
+      ],
+      "synaptic_marker_guided_changes": {
+        "notes": "AD variant reduces synapse counts/weights guided by human BA9 marker declines; excitatory spines vs inhibitory shafts scaled differentially.",
+        "markers_considered": ["VGLUT1", "PSD95", "VIAAT", "Somatostatin (SST)", "ChAT", "Synaptophysin"],
+        "example_declines_percent": {"VGLUT1": 26, "PSD95": 26, "VIAAT": 21.5, "SST": 42.4, "ChAT": 34.6, "Synaptophysin": 12}
+      },
+      "receptor_conductances": {"AMPA": "reduced", "NMDA": "reduced"},
+      "tonic_inhibition": "Magnitude adjusted to reflect E–I imbalance in early AD (tunable)."
+    },
+    "validation_plan": {
+      "healthy": [
+        "Match resting Vm, rheobase (~170 pA), FI slope (~0.14 spikes/pA), spike width/amplitude, sag ratio, Rin (~100 MΩ), τ (~17.8 ms).",
+        "Use EFEL feature extraction; compare to Allen/Yao targets."
+      ],
+      "ad_variant": [
+        "Test for reduced rheobase, altered FI slope, hyperexcitability, changed sag ratio; reduced excitatory synaptic efficacy under synaptic loss.",
+        "Compare to AD ephys literature trends and qualitative benchmarks."
+      ]
+    },
+    "spontaneous_firing_note": {
+      "observation": "In Stage 2, the neuron fires spontaneously at 0 pA.",
+      "policy": "Do NOT assume this reflects AD pathology. Treat it as a potential model fault unless explicitly induced by AD changes or tonic drive.",
+      "diagnostic_checklist": [
+        "Confirm resting Vm and leak reversal (El) are correct; check passive params (Ra, Cm, gLeak).",
+        "Verify resting synaptic/tonic currents (no unintended background drive).",
+        "Check Ih reversal (Eh) and distrib; ensure excessive depolarizing sag current isn’t active at rest.",
+        "Confirm NaTg/Nap vshift and gbar not pushing into auto-oscillation; review threshold dynamics.",
+        "Ensure dt, temperature, and initial conditions are standard; remove transient artifacts before measuring.",
+        "Reproduce behavior across seeds; if only some seeds fire spontaneously, investigate stochastic mechanisms."
+      ],
+      "resolution_strategy": "First restore a stable healthy resting state without spontaneous spiking at 0 pA; then re-apply AD changes and re-test."
+    },
+    "files_and_paths": {
+      "docs": [
+        "AD Pyr Neuron Model.docx",
+        "Yao et al. 2022 - Reduced inhibition in depression impairs stimulus processing in human cortical microcircuits.docx",
+        "Synaptic Markers Decline_Alzheimer's.pdf"
+      ],
+      "notebooks": [
+        "HL23PYR_Stage1.ipynb",
+        "HL23PYR_Stage2.ipynb",
+        "Updated_HL23PYR_AD.ipynb",
+        "Working_Yao_L23PYR_Human_EFEL.ipynb",
+        "***Allen_Protocol_PYR_L23_EFEL.ipynb"
+      ],
+      "code_core": [
+        "cellwrapper.py",
+        "NeuronTemplate_HL23PYR.hoc",
+        "biophys_HL23PYR.hoc"
+      ],
+      "mechanisms_mod": [
+        "NaTg.mod",
+        "Nap.mod",
+        "Kv3_1.mod",
+        "K_P.mod",
+        "K_T.mod",
+        "SK.mod",
+        "Ih.mod",
+        "ProbAMPANMDA.mod",
+        "epsp.mod",
+        "tonic.mod"
+      ],
+      "metadata": [
+        "ephys_data.xml"
+      ],
+      "repo_root_hint": "Place this JSON at the repository root (HL23PYR_AD_project_primer.json)."
+    },
+    "workflow_entrypoints": {
+      "stage1_passive_active_baseline": {
+        "file": "HL23PYR_Stage1.ipynb",
+        "purpose": "Fit passive (Ra, Cm) + Ih/sag and basic spiking to match healthy targets before any AD edits.",
+        "expected_outputs": [
+          "Resting Vm within ~±2 mV of target",
+          "Sag ratio within target band",
+          "Initial FI curve slope estimate"
+        ]
+      },
+      "stage2_rate_and_slope_tuning": {
+        "file": "HL23PYR_Stage2.ipynb",
+        "purpose": "Tune NaTg/Nap vs Kv3.1/SK to hit rheobase=170 pA and FI slope≈0.14 spikes/pA; preserve spike width; ELIMINATE spontaneous firing at 0 pA.",
+        "expected_outputs": [
+          "Rheobase ≈ 170 pA (no 0 pA spiking)",
+          "FI slope ≈ 0.14 spikes/pA",
+          "AP width and amplitude within tolerance"
+        ]
+      },
+      "ad_variant_runs": {
+        "file": "Updated_HL23PYR_AD.ipynb",
+        "purpose": "Apply AD channel/synaptic changes (via cellwrapper.py) and re-run sweeps for Healthy vs AD comparison.",
+        "expected_outputs": [
+          "Healthy vs AD FI curves",
+          "Healthy vs AD sag ratio and rheobase deltas"
+        ]
+      },
+      "efel_validation_human": {
+        "file": "Working_Yao_L23PYR_Human_EFEL.ipynb",
+        "purpose": "Extract EFEL features from healthy traces; confirm alignment with targets.",
+        "expected_outputs": [
+          "Table of EFEL features (Vm, Rin, Tau, Sag, AP width, amplitude)",
+          "Plots for sweeps 45–52"
+        ]
+      },
+      "efel_protocol_template": {
+        "file": "***Allen_Protocol_PYR_L23_EFEL.ipynb",
+        "purpose": "Reference protocol template for consistent sweep extraction and EFEL metrics across notebooks.",
+        "expected_outputs": [
+          "Reusable EFEL extraction cells",
+          "Consistent sweep indexing and plotting utilities"
+        ]
+      }
+    },
+    "claude_runbook": [
+      {
+        "when": "starting a new session",
+        "do": [
+          "Load HL23PYR_AD_project_primer.json.",
+          "Summarize goals, targets, and current gaps in one paragraph.",
+          "Ask the user which entrypoint to open (Stage1, Stage2, AD variant, EFEL)."
+        ]
+      },
+      {
+        "when": "working in HL23PYR_Stage1.ipynb",
+        "teach_first": "Explain why sag (Ih) and passive fits should precede firing-rate tuning.",
+        "strategy": [
+          "Estimate Rin and Tau; adjust Ra and Cm to hit targets.",
+          "Fit sag by adjusting ghbar distribution and/or vshift within bounded ranges.",
+          "Recheck resting Vm after each change; avoid unintentional depolarizing drift."
+        ]
+      },
+      {
+        "when": "working in HL23PYR_Stage2.ipynb",
+        "teach_first": "Discuss tradeoffs: NaTg/Nap ↑ raises excitability and can narrow AP; Kv3.1/SK ↓ increases rate but can broaden AP.",
+        "strategy": [
+          "First ensure NO spontaneous firing at 0 pA; if present, fix passive/leak/tonic/Ih/NaP biases before tuning rate.",
+          "Propose bounded sweeps: NaTg ±15%, Nap ±20%, Kv3.1 −10..−50%, SK −10..−40%; keep one family fixed while sweeping the other.",
+          "Optimize to dual criteria: FI slope and AP width both within tolerance; use small grid or Bayesian search (≤12 runs)."
+        ]
+      },
+      {
+        "when": "working in Updated_HL23PYR_AD.ipynb",
+        "teach_first": "Map each AD change to hypothesized effects on FI slope, rheobase, and sag.",
+        "strategy": [
+          "Apply apply_AD_changes() from cellwrapper.py.",
+          "Re-run sweeps 45–52.",
+          "Generate delta table (AD − Healthy) across EFEL features; interpret which mechanisms drive changes."
+        ]
+      },
+      {
+        "when": "working in EFEL notebooks",
+        "teach_first": "Clarify EFEL feature definitions and why consistent sweep selection matters.",
+        "strategy": [
+          "Use identical sweeps and sampling rates.",
+          "Export CSV of features; plot side-by-side with confidence bands.",
+          "Flag out-of-range features; suggest parameter adjustments with predicted effects."
+        ]
+      }
+    ],
+    "code_quality_improvement_requests": {
+      "objectives": [
+        "Fix runtime errors and warnings; ensure notebooks run top-to-bottom.",
+        "Refactor to clear, modular functions; minimize repeated code across notebooks.",
+        "Add docstrings, type hints, and inline rationale for parameter changes.",
+        "Centralize constants (targets, sweep ranges) in one config cell or JSON.",
+        "Reproducibility: set seeds where applicable; fix execution order; capture environment info.",
+        "Logging: concise run summaries and EFEL outputs saved to CSV.",
+        "Plotting: consistent labels, units, and styling for FI/VI/sag/EFEL figures."
+      ],
+      "netpyne_first_principles": [
+        "Prefer NetPyNE constructs for cells/synapses/stim configuration over raw hoc when practical.",
+        "Encapsulate AD vs Healthy via parameter sets; avoid scattering magic numbers.",
+        "Keep mechanism compilation and model building steps explicit and idempotent."
+      ]
+    },
+    "assistant_behavior_for_claude": {
+      "role": "Coding professor + research mentor",
+      "style": "Explain logic and strategy before code; guide the student to the solution. When code is necessary, provide minimal, well-annotated snippets and ask reflective questions.",
+      "decisions": [
+        "Prioritize conceptual grounding before edits.",
+        "Use systematic parameter sweeps with clear bounds and stopping criteria.",
+        "Justify changes with expected electrophysiological consequences.",
+        "Stick to NetPyNE usage where possible; only drop to hoc for mechanisms that require it."
+      ]
+    },
+    "entry_prompts_for_conditioning": {
+      "system_message": "You are a senior computational neuroscientist mentoring a PhD student. Emphasize reasoning, validation logic, and NetPyNE-first implementation. Provide minimal, annotated code; ask questions to check understanding.",
+      "user_context_primer": "We are building a human L2/3 PYR neuron model (Allen Cell ID 531526539) in NEURON/NetPyNE, validated to human features (FI slope, rheobase, sag, etc.). Then we apply AD-specific synaptic and channel changes (NaTg/Nap↑, Kv3.1/SK/Ih↓; AMPA/NMDA↓; synaptic marker–guided loss) and compare Healthy vs AD. IMPORTANT: In Stage 2, there is spontaneous firing at 0 pA — treat this as a likely model fault unless justified; please diagnose and fix.",
+      "guardrails": [
+        "Never assume spontaneous firing is pathological unless induced by explicit AD changes.",
+        "Keep edits NetPyNE-centric and documented; avoid silent parameter changes."
+      ]
+    },
+    "quick_start_tasks_for_claude": [
+      "Open HL23PYR_Stage1.ipynb. Audit Vm, Rin, Tau, and sag vs targets; propose 2–3 bounded adjustments with rationale and expected effects.",
+      "Open HL23PYR_Stage2.ipynb. First eliminate spontaneous firing at 0 pA by diagnosing passive/leak/tonic/Ih/NaP issues. Then design a ≤12-run sweep over NaTg, Nap, Kv3.1, SK to hit rheobase=170 pA and FI slope≈0.14 spikes/pA while preserving AP width.",
+      "Open Updated_HL23PYR_AD.ipynb. Apply AD modifications via cellwrapper.py; generate a Healthy vs AD EFEL comparison table for sweeps 45–52; interpret drivers of deltas.",
+      "Open Working_Yao_L23PYR_Human_EFEL.ipynb. Extract EFEL features from Healthy runs; save CSV and plots for later AD comparison.",
+      "Perform a light refactor: centralize targets and sweep bounds; add docstrings/comments; ensure all notebooks run top-to-bottom without manual intervention."
+    ]
+  }
+  
