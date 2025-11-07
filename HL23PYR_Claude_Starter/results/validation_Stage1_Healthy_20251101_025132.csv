@@ -1,9 +1,0 @@
-Feature,Measured,Target,Tolerance,Pass
-v_base (baseline_0pA),-74.002,-75.800,-77.77 – -73.83,✓
-Rin_MOhm (passive_neg50pA),N/A,100.000,N/A,?
-tau_ms (passive_neg50pA),12.224,17.800,15.84 – 19.76,✗
-sag_ratio2 (sag_neg110pA),N/A,0.150,N/A,?
-Spikecount (sweep_45),15.000,170.000,N/A,?
-mean_frequency (sweep_52),21.420,20.000,17.00 – 23.00,✓
-adaptation_index (sweep_52),0.011,0.075,0.05 – 0.10,✗
-AP_width (sweep_45),1.100,1.000,0.80 – 1.20,✓
