@@ -1,4 +1,4 @@
-./CaDynamics.c: ../mod//CaDynamics.mod
+./CaDynamics.c: ../mod/CaDynamics.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "CaDynamics.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -6,7 +6,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./Ca_HVA.c: ../mod//Ca_HVA.mod
+./Ca_HVA.c: ../mod/Ca_HVA.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Ca_HVA.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -14,7 +14,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./Ca_LVA.c: ../mod//Ca_LVA.mod
+./Ca_LVA.c: ../mod/Ca_LVA.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Ca_LVA.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -22,7 +22,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./Gfluct.c: ../mod//Gfluct.mod
+./Gfluct.c: ../mod/Gfluct.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Gfluct.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -30,7 +30,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./Ih.c: ../mod//Ih.mod
+./Ih.c: ../mod/Ih.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Ih.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -38,7 +38,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./Im.c: ../mod//Im.mod
+./Im.c: ../mod/Im.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Im.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -46,7 +46,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./K_P.c: ../mod//K_P.mod
+./K_P.c: ../mod/K_P.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "K_P.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -54,7 +54,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./K_T.c: ../mod//K_T.mod
+./K_T.c: ../mod/K_T.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "K_T.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -62,7 +62,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./Kv3_1.c: ../mod//Kv3_1.mod
+./Kv3_1.c: ../mod/Kv3_1.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Kv3_1.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -70,7 +70,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./NMDA.c: ../mod//NMDA.mod
+./NMDA.c: ../mod/NMDA.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "NMDA.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -78,7 +78,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./NaTg.c: ../mod//NaTg.mod
+./NaTg.c: ../mod/NaTg.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "NaTg.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -86,7 +86,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./Nap.c: ../mod//Nap.mod
+./Nap.c: ../mod/Nap.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Nap.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -94,7 +94,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./ProbAMPANMDA.c: ../mod//ProbAMPANMDA.mod
+./ProbAMPANMDA.c: ../mod/ProbAMPANMDA.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ProbAMPANMDA.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -102,7 +102,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./ProbUDFsyn.c: ../mod//ProbUDFsyn.mod
+./ProbUDFsyn.c: ../mod/ProbUDFsyn.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ProbUDFsyn.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -110,7 +110,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./SK.c: ../mod//SK.mod
+./SK.c: ../mod/SK.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "SK.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -118,7 +118,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./epsp.c: ../mod//epsp.mod
+./epsp.c: ../mod/epsp.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "epsp.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 
@@ -126,7 +126,7 @@
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
 	$(COMPILE) -I"../mod" $(INCLUDES) -fPIC -c $< -o $@
 
-./tonic.c: ../mod//tonic.mod
+./tonic.c: ../mod/tonic.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
 	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "tonic.mod" -o "/Users/tarek/Desktop/HL23PYR_AD-main/x86_64")
 

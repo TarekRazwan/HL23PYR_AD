@@ -1,0 +1,2828 @@
+<Response success="true" start_row="0" num_rows="1" total_rows="1">
+<specimens>
+<specimen>
+<cell-prep-sample-id nil="true"/>
+<cell-reporter-id>491913820</cell-reporter-id>
+<cortex-layer-id>574006859</cortex-layer-id>
+<data nil="true"/>
+<donor-id>518229880</donor-id>
+<ephys-result-id>531526519</ephys-result-id>
+<external-specimen-name nil="true"/>
+<failed-facet>734881840</failed-facet>
+<hemisphere>left</hemisphere>
+<id>531526539</id>
+<is-cell-specimen>true</is-cell-specimen>
+<is-ish>false</is-ish>
+<name>H16.06.007.01.07.04</name>
+<parent-id>518617223</parent-id>
+<parent-x-coord>0</parent-x-coord>
+<parent-y-coord>0</parent-y-coord>
+<parent-z-coord>4</parent-z-coord>
+<pinned-radius nil="true"/>
+<rna-integrity-number nil="true"/>
+<specimen-id-path>/518233609/518233795/518617223/531526539/</specimen-id-path>
+<sphinx-id>652704</sphinx-id>
+<structure-id>12113</structure-id>
+<tissue-ph nil="true"/>
+<treatment-id>680087734</treatment-id>
+<weight>9000</weight>
+<donor>
+<age-id type="integer">27</age-id>
+<chemotherapy nil="true"/>
+<condition-description>disease categories - tumor</condition-description>
+<data nil="true"/>
+<date-of-birth type="datetime" nil="true"/>
+<donor-condition-description-facet type="integer">1236461644</donor-condition-description-facet>
+<donor-race-only-facet type="integer">1618859643</donor-race-only-facet>
+<donor-sex-facet type="integer">4122955671</donor-sex-facet>
+<donor-strain-facet type="integer">1618859643</donor-strain-facet>
+<donor-strain-only-facet type="integer" nil="true"/>
+<egfr-amplification nil="true"/>
+<extent-of-resection nil="true"/>
+<external-donor-name>H16.06.007</external-donor-name>
+<full-genotype nil="true"/>
+<handedness nil="true"/>
+<id type="integer">518229880</id>
+<initial-kps nil="true"/>
+<mgmt-ihc type="integer" nil="true"/>
+<mgmt-methylation nil="true"/>
+<molecular-subtype nil="true"/>
+<multifocal nil="true"/>
+<name>H16.06.007</name>
+<organism-id type="integer">1</organism-id>
+<pmi type="float" nil="true"/>
+<primary-tissue-source>Swedish</primary-tissue-source>
+<pten-deletion nil="true"/>
+<race-only>White or Caucasian</race-only>
+<radiation-therapy nil="true"/>
+<recurrence-by-six-months nil="true"/>
+<sex>M</sex>
+<sex-full-name>Male</sex-full-name>
+<sleep-state nil="true"/>
+<smoker nil="true"/>
+<strain>White or Caucasian</strain>
+<strain-only nil="true"/>
+<survival-days type="integer" nil="true"/>
+<tags>H16.06.007 </tags>
+<theiler-stage nil="true"/>
+<time-to-progression-or-recurrence nil="true"/>
+<transgenic-mouse-id type="integer" nil="true"/>
+<tumor-status nil="true"/>
+<weight-grams type="float" nil="true"/>
+</donor>
+<structure>
+<acronym>FroL</acronym>
+<atlas-id type="integer" nil="true"/>
+<color-hex-triplet>F2E5BB</color-hex-triplet>
+<depth type="integer">6</depth>
+<failed type="boolean">false</failed>
+<failed-facet type="integer">734881840</failed-facet>
+<graph-id type="integer">16</graph-id>
+<graph-order type="integer">2352</graph-order>
+<hemisphere-id type="integer">3</hemisphere-id>
+<id type="integer">12113</id>
+<name>frontal lobe</name>
+<neuro-name-structure-id type="integer" nil="true"/>
+<neuro-name-structure-id-path nil="true"/>
+<ontology-id type="integer">11</ontology-id>
+<parent-structure-id type="integer">12112</parent-structure-id>
+<safe-name>frontal lobe</safe-name>
+<sphinx-id type="integer">8952</sphinx-id>
+<st-level type="integer" nil="true"/>
+<structure-id-path>/10153/10154/10155/10156/10609/12112/12113/</structure-id-path>
+<structure-name-facet type="integer">1308459316</structure-name-facet>
+<weight type="integer">8660</weight>
+</structure>
+<cell-soma-locations>
+<cell-soma-location>
+<id type="integer">587740381</id>
+<normalized-depth type="float">0.223788404062107</normalized-depth>
+<reference-space-id type="integer" nil="true"/>
+<specimen-id type="integer">531526539</specimen-id>
+<x type="float">127.0</x>
+<y type="float">354.0</y>
+<z type="float">219.0</z>
+</cell-soma-location>
+</cell-soma-locations>
+<ephys-features>
+<ephys-feature>
+<adaptation type="float">0.0754890672653059</adaptation>
+<avg-isi type="float">110.945</avg-isi>
+<electrode-0-pa type="float">-15.827499033616</electrode-0-pa>
+<f-i-curve-slope type="float">0.137433864197789</f-i-curve-slope>
+<fast-trough-t-long-square type="float">1.2224</fast-trough-t-long-square>
+<fast-trough-t-ramp type="float">8.40189333333334</fast-trough-t-ramp>
+<fast-trough-t-short-square type="float">1.025036</fast-trough-t-short-square>
+<fast-trough-v-long-square type="float">-47.4062538146973</fast-trough-v-long-square>
+<fast-trough-v-ramp type="float">-51.7291692097982</fast-trough-v-ramp>
+<fast-trough-v-short-square type="float">-51.5875030517578</fast-trough-v-short-square>
+<has-burst type="boolean">false</has-burst>
+<has-delay type="boolean">false</has-delay>
+<has-pause type="boolean">false</has-pause>
+<id type="integer">531543590</id>
+<input-resistance-mohm type="float">97.87244</input-resistance-mohm>
+<latency type="float">0.0552000000000001</latency>
+<peak-t-long-square type="float">1.2205</peak-t-long-square>
+<peak-t-ramp type="float">8.40025333333333</peak-t-ramp>
+<peak-t-short-square type="float">1.02356</peak-t-short-square>
+<peak-v-long-square type="float">44.4687538146973</peak-v-long-square>
+<peak-v-ramp type="float">44.3020846048991</peak-v-ramp>
+<peak-v-short-square type="float">43.5250030517578</peak-v-short-square>
+<rheobase-sweep-id type="integer">531533030</rheobase-sweep-id>
+<rheobase-sweep-number type="integer">55</rheobase-sweep-number>
+<ri type="float">99.8437479138374</ri>
+<sag type="float">0.122265368700027</sag>
+<seal-gohm type="float">1.320316672</seal-gohm>
+<slow-trough-t-long-square type="float" nil="true"/>
+<slow-trough-t-ramp type="float">8.44996</slow-trough-t-ramp>
+<slow-trough-t-short-square type="float" nil="true"/>
+<slow-trough-v-long-square type="float" nil="true"/>
+<slow-trough-v-ramp type="float">-55.9895858764648</slow-trough-v-ramp>
+<slow-trough-v-short-square type="float" nil="true"/>
+<specimen-id type="integer">531526539</specimen-id>
+<tau type="float">17.8476988073413</tau>
+<threshold-i-long-square type="float">170.0</threshold-i-long-square>
+<threshold-i-ramp type="float">184.458333333333</threshold-i-ramp>
+<threshold-i-short-square type="float">1160.0</threshold-i-short-square>
+<threshold-t-long-square type="float">1.21992</threshold-t-long-square>
+<threshold-t-ramp type="float">8.39969333333333</threshold-t-ramp>
+<threshold-t-short-square type="float">1.023052</threshold-t-short-square>
+<threshold-v-long-square type="float">-39.625</threshold-v-long-square>
+<threshold-v-ramp type="float">-43.8333346048991</threshold-v-ramp>
+<threshold-v-short-square type="float">-47.9562515258789</threshold-v-short-square>
+<thumbnail-sweep-id type="integer">531533014</thumbnail-sweep-id>
+<trough-t-long-square type="float">1.2691</trough-t-long-square>
+<trough-t-ramp type="float">8.44996</trough-t-ramp>
+<trough-t-short-square type="float">1.14186</trough-t-short-square>
+<trough-v-long-square type="float">-53.28125</trough-v-long-square>
+<trough-v-ramp type="float">-55.9895858764648</trough-v-ramp>
+<trough-v-short-square type="float">-77.0062515258789</trough-v-short-square>
+<upstroke-downstroke-ratio-long-square type="float">2.88586014230285</upstroke-downstroke-ratio-long-square>
+<upstroke-downstroke-ratio-ramp type="float">2.79585166992196</upstroke-downstroke-ratio-ramp>
+<upstroke-downstroke-ratio-short-square type="float">2.81933997978136</upstroke-downstroke-ratio-short-square>
+<vm-for-sag type="float">-87.15625</vm-for-sag>
+<vrest type="float">-75.8455657958984</vrest>
+</ephys-feature>
+</ephys-features>
+<ephys-sweeps>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533126</id>
+<leak-pa type="float">-0.619003355503082</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0426038503646851</post-noise-rms-mv>
+<post-vm-mv type="float">-75.0679397583008</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0376016385853291</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.169807434082</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.159456044435501</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.169807434082</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[6]</stimulus-description>
+<stimulus-duration type="float">0.01898</stimulus-duration>
+<stimulus-interval type="float">0.008</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">100</sweep-number>
+<vm-delta-mv type="float">0.10186767578125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532986</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float">-83.5937576293945</peak-deflection>
+<post-noise-rms-mv type="float">0.0390774756669998</post-noise-rms-mv>
+<post-vm-mv type="float">-75.8762512207031</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0418254025280476</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.0933380126953</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0695057287812233</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.0933380126953</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">-69.9999988529321</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[2]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">33</sweep-number>
+<vm-delta-mv type="float">0.217086791992188</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533018</id>
+<leak-pa type="float">8.78984832763672</leak-pa>
+<num-spikes type="integer">14</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0320040509104729</post-noise-rms-mv>
+<post-vm-mv type="float">-75.0520782470703</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0426612794399261</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.6226959228516</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0731952488422394</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.6226959228516</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">249.999992929517</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[18]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">49</sweep-number>
+<vm-delta-mv type="float">0.57061767578125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533142</id>
+<leak-pa type="float">-0.619003355503082</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0476469919085503</post-noise-rms-mv>
+<post-vm-mv type="float">-75.0301284790039</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0435324013233185</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.2696762084961</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.167141631245613</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.2696762084961</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[0]</stimulus-description>
+<stimulus-duration type="float">0.64898</stimulus-duration>
+<stimulus-interval type="float">0.323</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">108</sweep-number>
+<vm-delta-mv type="float">0.239547729492188</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533120</id>
+<leak-pa type="float">3.77592086791992</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.045738160610199</post-noise-rms-mv>
+<post-vm-mv type="float">-75.5024490356445</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0435095131397247</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.4924850463867</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.107053309679031</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.4924850463867</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[3]</stimulus-description>
+<stimulus-duration type="float">0.08898</stimulus-duration>
+<stimulus-interval type="float">0.043</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">97</sweep-number>
+<vm-delta-mv type="float">0.0099639892578125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533151</id>
+<leak-pa type="float">-4.58062553405762</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.041089653968811</post-noise-rms-mv>
+<post-vm-mv type="float">-75.3038635253906</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0445573963224888</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.3534164428711</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.207955300807953</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.3534164428711</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[4]</stimulus-description>
+<stimulus-duration type="float">0.04898</stimulus-duration>
+<stimulus-interval type="float">0.023</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">112</sweep-number>
+<vm-delta-mv type="float">0.0495529174804688</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533070</id>
+<leak-pa type="float">8.4803466796875</leak-pa>
+<num-spikes type="integer">4</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0442458353936672</post-noise-rms-mv>
+<post-vm-mv type="float">-74.9043579101562</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0408547148108482</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.0720138549805</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.102948226034641</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.0720138549805</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">230.000005152498</stimulus-absolute-amplitude>
+<stimulus-description>C2SQRHELNG150216[0]</stimulus-description>
+<stimulus-duration type="float">1.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Square - 2s Suprathreshold</stimulus-name>
+<stimulus-relative-amplitude type="float">2.29999995231628</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">75</sweep-number>
+<vm-delta-mv type="float">0.167655944824219</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533012</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer">6</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0371509678661823</post-noise-rms-mv>
+<post-vm-mv type="float">-75.7225570678711</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0462924800813198</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.9696273803711</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.056451752781868</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.9696273803711</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">190.000001842883</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[15]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">46</sweep-number>
+<vm-delta-mv type="float">0.2470703125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533060</id>
+<leak-pa type="float">8.4803466796875</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0430479571223259</post-noise-rms-mv>
+<post-vm-mv type="float">-76.2445602416992</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0455556064844131</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.2991714477539</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0792471021413803</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.2991714477539</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">190.000001842883</stimulus-absolute-amplitude>
+<stimulus-description>C2SQRHELNG150216[0]</stimulus-description>
+<stimulus-duration type="float">1.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Square - 2s Suprathreshold</stimulus-name>
+<stimulus-relative-amplitude type="float">1.89999997615814</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">70</sweep-number>
+<vm-delta-mv type="float">0.0546112060546875</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532967</id>
+<leak-pa type="float">6.37573480606079</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0338494628667831</post-noise-rms-mv>
+<post-vm-mv type="float">-76.5542984008789</post-vm-mv>
+<pre-noise-rms-mv type="float">0.03891721367836</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.5137100219727</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0653253197669983</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.5137100219727</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1139.99998330172</stimulus-absolute-amplitude>
+<stimulus-description>C1SSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">11.3999996185303</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">24</sweep-number>
+<vm-delta-mv type="float">0.04058837890625</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533024</id>
+<leak-pa type="float">8.78984832763672</leak-pa>
+<num-spikes type="integer">20</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0486185513436794</post-noise-rms-mv>
+<post-vm-mv type="float">-75.2504730224609</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0433017574250698</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.7897567749023</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0822477862238884</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.7897567749023</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">309.999997893939</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[21]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">52</sweep-number>
+<vm-delta-mv type="float">0.539283752441406</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532940</id>
+<leak-pa type="float">3.21881771087646</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0398038439452648</post-noise-rms-mv>
+<post-vm-mv type="float">-76.1033477783203</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0437122024595737</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.1183013916016</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0492734499275684</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.1183013916016</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">800.000010681146</stimulus-absolute-amplitude>
+<stimulus-description>C1SSCOARSE150112[7]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">14</sweep-number>
+<vm-delta-mv type="float">0.01495361328125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532963</id>
+<leak-pa type="float">6.37573480606079</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0350485034286976</post-noise-rms-mv>
+<post-vm-mv type="float">-76.3126831054688</post-vm-mv>
+<pre-noise-rms-mv type="float">0.042196087539196</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.3203811645508</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0532093606889248</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.3203811645508</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1119.99998164691</stimulus-absolute-amplitude>
+<stimulus-description>C1SSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">11.1999998092651</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">23</sweep-number>
+<vm-delta-mv type="float">0.00769805908203125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533134</id>
+<leak-pa type="float">-0.619003355503082</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0423206984996796</post-noise-rms-mv>
+<post-vm-mv type="float">-75.0637817382812</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0387436151504517</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.4664764404297</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.217495009303093</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.4664764404297</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[3]</stimulus-description>
+<stimulus-duration type="float">0.08898</stimulus-duration>
+<stimulus-interval type="float">0.043</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">104</sweep-number>
+<vm-delta-mv type="float">0.402694702148438</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533118</id>
+<leak-pa type="float">3.77592086791992</leak-pa>
+<num-spikes type="integer">2</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0380819514393806</post-noise-rms-mv>
+<post-vm-mv type="float">-75.5944595336914</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0461239516735077</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.5920791625977</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.109781078994274</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.5920791625977</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[2]</stimulus-description>
+<stimulus-duration type="float">0.16898</stimulus-duration>
+<stimulus-interval type="float">0.083</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">96</sweep-number>
+<vm-delta-mv type="float">0.00238037109375</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float" nil="true"/>
+<id type="integer">531533163</id>
+<leak-pa type="float" nil="true"/>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float" nil="true"/>
+<post-vm-mv type="float" nil="true"/>
+<pre-noise-rms-mv type="float" nil="true"/>
+<pre-vm-mv type="float" nil="true"/>
+<slow-noise-rms-mv type="float" nil="true"/>
+<slow-vm-mv type="float" nil="true"/>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float" nil="true"/>
+<stimulus-description>EXTPEXPEND141203[0]</stimulus-description>
+<stimulus-duration type="float" nil="true"/>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Test</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float" nil="true"/>
+<stimulus-units>Volts</stimulus-units>
+<sweep-number type="integer">118</sweep-number>
+<vm-delta-mv type="float" nil="true"/>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533054</id>
+<leak-pa type="float">8.4803466796875</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.032371886074543</post-noise-rms-mv>
+<post-vm-mv type="float">-75.4976425170898</post-vm-mv>
+<pre-noise-rms-mv type="float">0.030435424298048</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.4684143066406</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.130312323570251</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.4684143066406</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">-200.000002670286</stimulus-absolute-amplitude>
+<stimulus-description>C1SQCAPCHK141203[0]</stimulus-description>
+<stimulus-duration type="float">7.21848</stimulus-duration>
+<stimulus-interval type="float">0.2005</stimulus-interval>
+<stimulus-name>Square - 0.5ms Subthreshold</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">0.8215</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">67</sweep-number>
+<vm-delta-mv type="float">0.0292282104492188</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532917</id>
+<leak-pa type="float">3.21881771087646</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.041949387639761</post-noise-rms-mv>
+<post-vm-mv type="float">-75.8697204589844</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0408244393765926</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.6773223876953</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.106859534978867</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.6773223876953</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">299.999997066536</stimulus-absolute-amplitude>
+<stimulus-description>C1SSCOARSE150112[2]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">9</sweep-number>
+<vm-delta-mv type="float">0.192398071289062</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533130</id>
+<leak-pa type="float">-0.619003355503082</leak-pa>
+<num-spikes type="integer">1</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0467409044504166</post-noise-rms-mv>
+<post-vm-mv type="float">-75.1744766235352</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0410700179636478</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.1012268066406</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.147106364369392</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.1012268066406</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[1]</stimulus-description>
+<stimulus-duration type="float">0.32898</stimulus-duration>
+<stimulus-interval type="float">0.163</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">102</sweep-number>
+<vm-delta-mv type="float">0.0732498168945312</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532922</id>
+<leak-pa type="float">3.21881771087646</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0373226404190063</post-noise-rms-mv>
+<post-vm-mv type="float">-76.3601531982422</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0394488014280796</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.2633514404297</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0618639402091503</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.2633514404297</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">499.999985859034</stimulus-absolute-amplitude>
+<stimulus-description>C1SSCOARSE150112[4]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">11</sweep-number>
+<vm-delta-mv type="float">0.0968017578125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533026</id>
+<leak-pa type="float">8.78984832763672</leak-pa>
+<num-spikes type="integer">1</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0358575657010078</post-noise-rms-mv>
+<post-vm-mv type="float">-75.4760437011719</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0430280528962612</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.5774917602539</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0790333300828934</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.5774917602539</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">170.000000188075</stimulus-absolute-amplitude>
+<stimulus-description>C1LSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.70000004768372</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">53</sweep-number>
+<vm-delta-mv type="float">0.101448059082031</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533036</id>
+<leak-pa type="float">8.78984832763672</leak-pa>
+<num-spikes type="integer">41</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0373529493808746</post-noise-rms-mv>
+<post-vm-mv type="float">-75.1018676757812</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0387825258076191</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.8682479858398</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0707224458456039</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.8682479858398</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">400.749988749283</stimulus-absolute-amplitude>
+<stimulus-description>C1NSSEED_2150216[0]</stimulus-description>
+<stimulus-duration type="float">18.99998</stimulus-duration>
+<stimulus-interval type="float">8.0</stimulus-interval>
+<stimulus-name>Noise 2</stimulus-name>
+<stimulus-relative-amplitude type="float">1.70000004768372</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">58</sweep-number>
+<vm-delta-mv type="float">0.766380310058594</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float" nil="true"/>
+<id type="integer">531532901</id>
+<leak-pa type="float" nil="true"/>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float" nil="true"/>
+<post-vm-mv type="float" nil="true"/>
+<pre-noise-rms-mv type="float" nil="true"/>
+<pre-vm-mv type="float" nil="true"/>
+<slow-noise-rms-mv type="float" nil="true"/>
+<slow-vm-mv type="float" nil="true"/>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float" nil="true"/>
+<stimulus-description>EXTPINBATH141203[0]</stimulus-description>
+<stimulus-duration type="float" nil="true"/>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Test</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float" nil="true"/>
+<stimulus-units>Volts</stimulus-units>
+<sweep-number type="integer">1</sweep-number>
+<vm-delta-mv type="float" nil="true"/>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533034</id>
+<leak-pa type="float">8.78984832763672</leak-pa>
+<num-spikes type="integer">48</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0394936501979828</post-noise-rms-mv>
+<post-vm-mv type="float">-75.4057846069336</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0364438146352768</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.2905578613281</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0521383583545685</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.2905578613281</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">393.999999293015</stimulus-absolute-amplitude>
+<stimulus-description>C1NSSEED_1150216[0]</stimulus-description>
+<stimulus-duration type="float">18.99998</stimulus-duration>
+<stimulus-interval type="float">8.0</stimulus-interval>
+<stimulus-name>Noise 1</stimulus-name>
+<stimulus-relative-amplitude type="float">1.70000004768372</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">57</sweep-number>
+<vm-delta-mv type="float">0.884773254394531</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533153</id>
+<leak-pa type="float">-4.58062553405762</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0365615449845791</post-noise-rms-mv>
+<post-vm-mv type="float">-75.7202529907227</post-vm-mv>
+<pre-noise-rms-mv type="float">0.037463866174221</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.8538513183594</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0771003291010857</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.8538513183594</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[5]</stimulus-description>
+<stimulus-duration type="float">0.02898</stimulus-duration>
+<stimulus-interval type="float">0.013</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">113</sweep-number>
+<vm-delta-mv type="float">0.133598327636719</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533128</id>
+<leak-pa type="float">-0.619003355503082</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0417015366256237</post-noise-rms-mv>
+<post-vm-mv type="float">-75.1228866577148</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0345246382057667</pre-noise-rms-mv>
+<pre-vm-mv type="float">-74.8353729248047</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.172769948840141</slow-noise-rms-mv>
+<slow-vm-mv type="float">-74.8353729248047</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[0]</stimulus-description>
+<stimulus-duration type="float">0.64898</stimulus-duration>
+<stimulus-interval type="float">0.323</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">101</sweep-number>
+<vm-delta-mv type="float">0.287513732910156</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532909</id>
+<leak-pa type="float" nil="true"/>
+<num-spikes type="integer">39</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float" nil="true"/>
+<post-vm-mv type="float" nil="true"/>
+<pre-noise-rms-mv type="float">0.0426614060997963</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.0718078613281</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0791002586483955</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.0718078613281</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">800.000010681146</stimulus-absolute-amplitude>
+<stimulus-description>C1RP25PR1S141203[0]</stimulus-description>
+<stimulus-duration type="float">31.99748</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Ramp</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.0225</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">5</sweep-number>
+<vm-delta-mv type="float" nil="true"/>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532976</id>
+<leak-pa type="float">9.71835327148438</leak-pa>
+<num-spikes type="integer">1</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0464285872876644</post-noise-rms-mv>
+<post-vm-mv type="float">-76.5490875244141</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0443981923162937</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.5754470825195</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.050393633544445</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.5754470825195</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1159.99998495653</stimulus-absolute-amplitude>
+<stimulus-description>C1SSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">11.6000003814697</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">28</sweep-number>
+<vm-delta-mv type="float">0.0263595581054688</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532950</id>
+<leak-pa type="float">3.21881771087646</leak-pa>
+<num-spikes type="integer">1</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0360751189291477</post-noise-rms-mv>
+<post-vm-mv type="float">-76.2741012573242</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0407915711402893</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.306022644043</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0764927268028259</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.306022644043</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1099.99997999211</stimulus-absolute-amplitude>
+<stimulus-description>C1SSCOARSE150112[10]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">17</sweep-number>
+<vm-delta-mv type="float">0.03192138671875</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float" nil="true"/>
+<id type="integer">531533165</id>
+<leak-pa type="float" nil="true"/>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float" nil="true"/>
+<post-vm-mv type="float" nil="true"/>
+<pre-noise-rms-mv type="float" nil="true"/>
+<pre-vm-mv type="float" nil="true"/>
+<slow-noise-rms-mv type="float" nil="true"/>
+<slow-vm-mv type="float" nil="true"/>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float" nil="true"/>
+<stimulus-description>EXTPGGAEND141203[0]</stimulus-description>
+<stimulus-duration type="float" nil="true"/>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Test</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float" nil="true"/>
+<stimulus-units>Volts</stimulus-units>
+<sweep-number type="integer">119</sweep-number>
+<vm-delta-mv type="float" nil="true"/>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533159</id>
+<leak-pa type="float">-0.123800680041313</leak-pa>
+<num-spikes type="integer">13</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0390518046915531</post-noise-rms-mv>
+<post-vm-mv type="float">-75.9765319824219</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0484785214066505</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.2772674560547</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0874219983816147</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.2772674560547</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">644.000019978108</stimulus-absolute-amplitude>
+<stimulus-description>C2NSRMPRH2150216[0]</stimulus-description>
+<stimulus-duration type="float">31.99996</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Ramp to Rheobase</stimulus-name>
+<stimulus-relative-amplitude type="float">1.89999997615814</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02002</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">116</sweep-number>
+<vm-delta-mv type="float">0.300735473632812</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533008</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float">-49.3125038146973</peak-deflection>
+<post-noise-rms-mv type="float">0.0511165522038937</post-noise-rms-mv>
+<post-vm-mv type="float">-75.868537902832</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0440453179180622</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.7595672607422</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0723084434866905</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.7595672607422</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">149.999998533268</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[13]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">44</sweep-number>
+<vm-delta-mv type="float">0.108970642089844</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532926</id>
+<leak-pa type="float">3.21881771087646</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0418747365474701</post-noise-rms-mv>
+<post-vm-mv type="float">-76.204460144043</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0413834266364574</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.234733581543</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0666386261582375</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.234733581543</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">700.000002407108</stimulus-absolute-amplitude>
+<stimulus-description>C1SSCOARSE150112[6]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">13</sweep-number>
+<vm-delta-mv type="float">0.0302734375</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533014</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer">9</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.043172262609005</post-noise-rms-mv>
+<post-vm-mv type="float">-74.668701171875</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0424924753606319</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.3122329711914</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0639749318361282</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.3122329711914</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">210.00000349769</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[16]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">47</sweep-number>
+<vm-delta-mv type="float">0.643531799316406</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533032</id>
+<leak-pa type="float">8.78984832763672</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float">-42.90625</peak-deflection>
+<post-noise-rms-mv type="float">0.0406883209943771</post-noise-rms-mv>
+<post-vm-mv type="float">-75.9680023193359</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0398470163345337</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.0480422973633</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0806623324751854</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.0480422973633</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">170.000000188075</stimulus-absolute-amplitude>
+<stimulus-description>C1LSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.70000004768372</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">56</sweep-number>
+<vm-delta-mv type="float">0.0800399780273438</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532988</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float">-81.6250076293945</peak-deflection>
+<post-noise-rms-mv type="float">0.0426217690110207</post-noise-rms-mv>
+<post-vm-mv type="float">-75.8983383178711</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0456549078226089</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.1041488647461</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0789040848612785</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.1041488647461</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">-50.0000006675716</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[3]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">34</sweep-number>
+<vm-delta-mv type="float">0.205810546875</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533161</id>
+<leak-pa type="float">-0.123800680041313</leak-pa>
+<num-spikes type="integer">9</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0404270254075527</post-noise-rms-mv>
+<post-vm-mv type="float">-76.3174362182617</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0370439030230045</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.7856979370117</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.129866644740105</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.7856979370117</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">644.000019978108</stimulus-absolute-amplitude>
+<stimulus-description>C2NSRMPRH2150216[0]</stimulus-description>
+<stimulus-duration type="float">31.99996</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Ramp to Rheobase</stimulus-name>
+<stimulus-relative-amplitude type="float">1.89999997615814</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02002</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">117</sweep-number>
+<vm-delta-mv type="float">0.53173828125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532980</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer">1</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0349739789962769</post-noise-rms-mv>
+<post-vm-mv type="float">-76.0678405761719</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0393883660435677</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.128288269043</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0580508559942245</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.128288269043</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1159.99998495653</stimulus-absolute-amplitude>
+<stimulus-description>C1SSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">11.6000003814697</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">30</sweep-number>
+<vm-delta-mv type="float">0.0604476928710938</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532978</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer">1</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0395418219268322</post-noise-rms-mv>
+<post-vm-mv type="float">-76.0462875366211</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0424190908670425</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.114875793457</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0549893602728844</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.114875793457</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1159.99998495653</stimulus-absolute-amplitude>
+<stimulus-description>C1SSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">11.6000003814697</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">29</sweep-number>
+<vm-delta-mv type="float">0.0685882568359375</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533000</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float">-66.6562576293945</peak-deflection>
+<post-noise-rms-mv type="float">0.0448877662420273</post-noise-rms-mv>
+<post-vm-mv type="float">-75.9789352416992</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0437486506998539</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.9941024780273</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.138410851359367</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.9941024780273</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">69.9999988529321</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[9]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">40</sweep-number>
+<vm-delta-mv type="float">0.015167236328125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532992</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float">-77.3437576293945</peak-deflection>
+<post-noise-rms-mv type="float">0.0355160348117352</post-noise-rms-mv>
+<post-vm-mv type="float">-76.0973968505859</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0419492907822132</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.0990982055664</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0553305260837078</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.0990982055664</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">-9.99999996004197</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[5]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">36</sweep-number>
+<vm-delta-mv type="float">0.00170135498046875</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533030</id>
+<leak-pa type="float">8.78984832763672</leak-pa>
+<num-spikes type="integer">1</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0393169149756432</post-noise-rms-mv>
+<post-vm-mv type="float">-75.8999862670898</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0370646640658379</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.9714126586914</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.093516543507576</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.9714126586914</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">170.000000188075</stimulus-absolute-amplitude>
+<stimulus-description>C1LSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.70000004768372</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">55</sweep-number>
+<vm-delta-mv type="float">0.0714263916015625</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533149</id>
+<leak-pa type="float">-0.619003355503082</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0457376167178154</post-noise-rms-mv>
+<post-vm-mv type="float">-75.1570739746094</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0346747152507305</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.3285522460938</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0937376692891121</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.3285522460938</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[3]</stimulus-description>
+<stimulus-duration type="float">0.08898</stimulus-duration>
+<stimulus-interval type="float">0.043</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">111</sweep-number>
+<vm-delta-mv type="float">0.171478271484375</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533020</id>
+<leak-pa type="float">8.78984832763672</leak-pa>
+<num-spikes type="integer">17</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.044245108962059</post-noise-rms-mv>
+<post-vm-mv type="float">-75.1392822265625</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0333438739180565</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.5494232177734</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0611283592879772</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.5494232177734</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">269.999994584325</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[19]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">50</sweep-number>
+<vm-delta-mv type="float">0.410140991210938</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float" nil="true"/>
+<id type="integer">531533167</id>
+<leak-pa type="float" nil="true"/>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0361180566251278</post-noise-rms-mv>
+<post-vm-mv type="float">2.55321884155273</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0428701564669609</pre-noise-rms-mv>
+<pre-vm-mv type="float">2.57904505729675</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0457926616072655</slow-noise-rms-mv>
+<slow-vm-mv type="float">2.57904505729675</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">0.0</stimulus-absolute-amplitude>
+<stimulus-description>EXTPBLWOUT141203[0]</stimulus-description>
+<stimulus-duration type="float">0.0</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Test</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">0.0</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">120</sweep-number>
+<vm-delta-mv type="float">0.0258262157440186</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532919</id>
+<leak-pa type="float">3.21881771087646</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0372681096196175</post-noise-rms-mv>
+<post-vm-mv type="float">-76.0330276489258</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0338362045586109</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.107063293457</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0604063495993614</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.107063293457</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">400.000005340573</stimulus-absolute-amplitude>
+<stimulus-description>C1SSCOARSE150112[3]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">10</sweep-number>
+<vm-delta-mv type="float">0.07403564453125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533040</id>
+<leak-pa type="float">4.20922327041626</leak-pa>
+<num-spikes type="integer">38</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0402903594076633</post-noise-rms-mv>
+<post-vm-mv type="float">-75.3306350708008</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0334457829594612</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.9928665161133</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.123309157788754</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.9928665161133</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">400.749988749283</stimulus-absolute-amplitude>
+<stimulus-description>C1NSSEED_2150216[0]</stimulus-description>
+<stimulus-duration type="float">18.99998</stimulus-duration>
+<stimulus-interval type="float">8.0</stimulus-interval>
+<stimulus-name>Noise 2</stimulus-name>
+<stimulus-relative-amplitude type="float">1.70000004768372</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">60</sweep-number>
+<vm-delta-mv type="float">0.6622314453125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532994</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float">-74.90625</peak-deflection>
+<post-noise-rms-mv type="float">0.0405047722160816</post-noise-rms-mv>
+<post-vm-mv type="float">-75.987060546875</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0344449244439602</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.265022277832</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0658862590789795</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.265022277832</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">9.99999996004197</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[6]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">37</sweep-number>
+<vm-delta-mv type="float">0.277961730957031</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532911</id>
+<leak-pa type="float" nil="true"/>
+<num-spikes type="integer">12</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float" nil="true"/>
+<post-vm-mv type="float" nil="true"/>
+<pre-noise-rms-mv type="float">0.0368838012218475</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.3261947631836</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0637472048401833</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.3261947631836</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">800.000010681146</stimulus-absolute-amplitude>
+<stimulus-description>C1RP25PR1S141203[0]</stimulus-description>
+<stimulus-duration type="float">31.99748</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Ramp</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.0225</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">6</sweep-number>
+<vm-delta-mv type="float" nil="true"/>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532907</id>
+<leak-pa type="float" nil="true"/>
+<num-spikes type="integer">22</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float" nil="true"/>
+<post-vm-mv type="float" nil="true"/>
+<pre-noise-rms-mv type="float">0.0393828637897968</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.7009582519531</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0546337962150574</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.7009582519531</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">800.000010681146</stimulus-absolute-amplitude>
+<stimulus-description>C1RP25PR1S141203[0]</stimulus-description>
+<stimulus-duration type="float">31.99748</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Ramp</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.0225</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">4</sweep-number>
+<vm-delta-mv type="float" nil="true"/>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float" nil="true"/>
+<id type="integer">531532903</id>
+<leak-pa type="float" nil="true"/>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float" nil="true"/>
+<post-vm-mv type="float" nil="true"/>
+<pre-noise-rms-mv type="float" nil="true"/>
+<pre-vm-mv type="float" nil="true"/>
+<slow-noise-rms-mv type="float" nil="true"/>
+<slow-vm-mv type="float" nil="true"/>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float" nil="true"/>
+<stimulus-description>EXTPCllATT141203[0]</stimulus-description>
+<stimulus-duration type="float" nil="true"/>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Test</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float" nil="true"/>
+<stimulus-units>Volts</stimulus-units>
+<sweep-number type="integer">2</sweep-number>
+<vm-delta-mv type="float" nil="true"/>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533062</id>
+<leak-pa type="float">8.4803466796875</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0411087311804295</post-noise-rms-mv>
+<post-vm-mv type="float">-75.5122528076172</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0419239476323128</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.0967483520508</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0564844124019146</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.0967483520508</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">190.000001842883</stimulus-absolute-amplitude>
+<stimulus-description>C2SQRHELNG150216[0]</stimulus-description>
+<stimulus-duration type="float">1.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Square - 2s Suprathreshold</stimulus-name>
+<stimulus-relative-amplitude type="float">1.89999997615814</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">71</sweep-number>
+<vm-delta-mv type="float">0.584495544433594</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533074</id>
+<leak-pa type="float">4.14732265472412</leak-pa>
+<num-spikes type="integer">9</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.037959598004818</post-noise-rms-mv>
+<post-vm-mv type="float">-75.3303985595703</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0385402739048004</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.0756912231445</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.137567147612572</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.0756912231445</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">269.999994584325</stimulus-absolute-amplitude>
+<stimulus-description>C2SQRHELNG150216[0]</stimulus-description>
+<stimulus-duration type="float">1.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Square - 2s Suprathreshold</stimulus-name>
+<stimulus-relative-amplitude type="float">2.70000004768372</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">77</sweep-number>
+<vm-delta-mv type="float">0.745292663574219</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533064</id>
+<leak-pa type="float">8.4803466796875</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0558184720575809</post-noise-rms-mv>
+<post-vm-mv type="float">-75.9198608398438</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0362856797873974</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.9579925537109</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.115674808621407</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.9579925537109</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">190.000001842883</stimulus-absolute-amplitude>
+<stimulus-description>C2SQRHELNG150216[0]</stimulus-description>
+<stimulus-duration type="float">1.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Square - 2s Suprathreshold</stimulus-name>
+<stimulus-relative-amplitude type="float">1.89999997615814</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">72</sweep-number>
+<vm-delta-mv type="float">0.0381317138671875</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533042</id>
+<leak-pa type="float">4.20922327041626</leak-pa>
+<num-spikes type="integer">35</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0397390723228455</post-noise-rms-mv>
+<post-vm-mv type="float">-75.4036712646484</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0348714999854565</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.2477722167969</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.104794204235077</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.2477722167969</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">393.999999293015</stimulus-absolute-amplitude>
+<stimulus-description>C1NSSEED_1150216[0]</stimulus-description>
+<stimulus-duration type="float">18.99998</stimulus-duration>
+<stimulus-interval type="float">8.0</stimulus-interval>
+<stimulus-name>Noise 1</stimulus-name>
+<stimulus-relative-amplitude type="float">1.70000004768372</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">61</sweep-number>
+<vm-delta-mv type="float">0.844100952148438</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533155</id>
+<leak-pa type="float">-4.58062553405762</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0351980142295361</post-noise-rms-mv>
+<post-vm-mv type="float">-75.8842620849609</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0299034807831049</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.8138122558594</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.119739294052124</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.8138122558594</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[6]</stimulus-description>
+<stimulus-duration type="float">0.01898</stimulus-duration>
+<stimulus-interval type="float">0.008</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">114</sweep-number>
+<vm-delta-mv type="float">0.0704498291015625</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float" nil="true"/>
+<id type="integer">531533050</id>
+<leak-pa type="float" nil="true"/>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float" nil="true"/>
+<post-vm-mv type="float" nil="true"/>
+<pre-noise-rms-mv type="float" nil="true"/>
+<pre-vm-mv type="float" nil="true"/>
+<slow-noise-rms-mv type="float" nil="true"/>
+<slow-vm-mv type="float" nil="true"/>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float" nil="true"/>
+<stimulus-description>EXTPRSCHEK150209[0]</stimulus-description>
+<stimulus-duration type="float" nil="true"/>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Test</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float" nil="true"/>
+<stimulus-units>Volts</stimulus-units>
+<sweep-number type="integer">65</sweep-number>
+<vm-delta-mv type="float" nil="true"/>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533022</id>
+<leak-pa type="float">8.78984832763672</leak-pa>
+<num-spikes type="integer">18</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0374195128679276</post-noise-rms-mv>
+<post-vm-mv type="float">-75.3159255981445</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0401479229331017</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.750862121582</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0716945603489876</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.750862121582</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">289.999996239132</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[20]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">51</sweep-number>
+<vm-delta-mv type="float">0.4349365234375</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533116</id>
+<leak-pa type="float">3.77592086791992</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0409305207431316</post-noise-rms-mv>
+<post-vm-mv type="float">-75.6995315551758</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0369151160120964</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.2705612182617</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.178082972764969</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.2705612182617</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[1]</stimulus-description>
+<stimulus-duration type="float">0.32898</stimulus-duration>
+<stimulus-interval type="float">0.163</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">95</sweep-number>
+<vm-delta-mv type="float">0.428970336914062</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533016</id>
+<leak-pa type="float">8.78984832763672</leak-pa>
+<num-spikes type="integer">11</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0368328876793385</post-noise-rms-mv>
+<post-vm-mv type="float">-75.0792083740234</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0389158204197884</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.6285705566406</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0710465312004089</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.6285705566406</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">230.000005152498</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[17]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">48</sweep-number>
+<vm-delta-mv type="float">0.549362182617188</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533138</id>
+<leak-pa type="float">-0.619003355503082</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0391630157828331</post-noise-rms-mv>
+<post-vm-mv type="float">-75.3541412353516</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0456341058015823</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.189582824707</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.127026617527008</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.189582824707</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[5]</stimulus-description>
+<stimulus-duration type="float">0.02898</stimulus-duration>
+<stimulus-interval type="float">0.013</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">106</sweep-number>
+<vm-delta-mv type="float">0.164558410644531</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533002</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float">-63.3437576293945</peak-deflection>
+<post-noise-rms-mv type="float">0.0357214584946632</post-noise-rms-mv>
+<post-vm-mv type="float">-75.6253662109375</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0434491559863091</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.9018478393555</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0594559051096439</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.9018478393555</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">90.0000005077395</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[10]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">41</sweep-number>
+<vm-delta-mv type="float">0.276481628417969</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533144</id>
+<leak-pa type="float">-0.619003355503082</leak-pa>
+<num-spikes type="integer">2</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0406614653766155</post-noise-rms-mv>
+<post-vm-mv type="float">-74.9597778320312</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0431071445345879</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.2905731201172</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0703364238142967</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.2905731201172</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[1]</stimulus-description>
+<stimulus-duration type="float">0.32898</stimulus-duration>
+<stimulus-interval type="float">0.163</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">109</sweep-number>
+<vm-delta-mv type="float">0.330795288085938</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533004</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float">-59.65625</peak-deflection>
+<post-noise-rms-mv type="float">0.0396376363933086</post-noise-rms-mv>
+<post-vm-mv type="float">-75.5890731811523</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0387884452939034</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.6735687255859</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0700625032186508</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.6735687255859</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">110.000002162547</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[11]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">42</sweep-number>
+<vm-delta-mv type="float">0.0844955444335938</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533066</id>
+<leak-pa type="float">8.4803466796875</leak-pa>
+<num-spikes type="integer">5</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.049575213342905</post-noise-rms-mv>
+<post-vm-mv type="float">-75.0972137451172</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0452684983611107</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.8997573852539</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0746979936957359</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.8997573852539</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">230.000005152498</stimulus-absolute-amplitude>
+<stimulus-description>C2SQRHELNG150216[0]</stimulus-description>
+<stimulus-duration type="float">1.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Square - 2s Suprathreshold</stimulus-name>
+<stimulus-relative-amplitude type="float">2.29999995231628</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">73</sweep-number>
+<vm-delta-mv type="float">0.802543640136719</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533136</id>
+<leak-pa type="float">-0.619003355503082</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0405347943305969</post-noise-rms-mv>
+<post-vm-mv type="float">-75.7371215820312</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0359742566943169</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.7631988525391</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0907073318958282</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.7631988525391</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[4]</stimulus-description>
+<stimulus-duration type="float">0.04898</stimulus-duration>
+<stimulus-interval type="float">0.023</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">105</sweep-number>
+<vm-delta-mv type="float">0.0260772705078125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533124</id>
+<leak-pa type="float">3.77592086791992</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0463038943707943</post-noise-rms-mv>
+<post-vm-mv type="float">-74.6053314208984</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0368555448949337</pre-noise-rms-mv>
+<pre-vm-mv type="float">-74.9383163452148</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.256893247365952</slow-noise-rms-mv>
+<slow-vm-mv type="float">-74.9383163452148</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[5]</stimulus-description>
+<stimulus-duration type="float">0.02898</stimulus-duration>
+<stimulus-interval type="float">0.013</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">99</sweep-number>
+<vm-delta-mv type="float">0.332984924316406</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532961</id>
+<leak-pa type="float">6.37573480606079</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0401076339185238</post-noise-rms-mv>
+<post-vm-mv type="float">-76.1861038208008</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0372562445700169</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.1548919677734</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0503619089722633</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.1548919677734</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1099.99997999211</stimulus-absolute-amplitude>
+<stimulus-description>C1SSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">11.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">22</sweep-number>
+<vm-delta-mv type="float">0.0312118530273438</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532990</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float">-79.3750076293945</peak-deflection>
+<post-noise-rms-mv type="float">0.0398473590612411</post-noise-rms-mv>
+<post-vm-mv type="float">-75.8769226074219</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0373454429209232</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.9404144287109</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0599339716136456</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.9404144287109</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">-29.9999990127642</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[4]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">35</sweep-number>
+<vm-delta-mv type="float">0.0634918212890625</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533114</id>
+<leak-pa type="float">3.77592086791992</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0372672006487846</post-noise-rms-mv>
+<post-vm-mv type="float">-75.7153472900391</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0550415478646755</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.9443511962891</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.10501367598772</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.9443511962891</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[0]</stimulus-description>
+<stimulus-duration type="float">0.64898</stimulus-duration>
+<stimulus-interval type="float">0.323</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">94</sweep-number>
+<vm-delta-mv type="float">0.22900390625</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532984</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float">-85.2187576293945</peak-deflection>
+<post-noise-rms-mv type="float">0.037698358297348</post-noise-rms-mv>
+<post-vm-mv type="float">-75.6967163085938</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0442468971014023</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.8993377685547</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0556580759584904</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.8993377685547</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">-90.0000005077395</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[1]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">32</sweep-number>
+<vm-delta-mv type="float">0.202621459960938</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533132</id>
+<leak-pa type="float">-0.619003355503082</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0406117551028728</post-noise-rms-mv>
+<post-vm-mv type="float">-75.4490280151367</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0416960194706917</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.350341796875</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.139372393488884</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.350341796875</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[2]</stimulus-description>
+<stimulus-duration type="float">0.16898</stimulus-duration>
+<stimulus-interval type="float">0.083</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">103</sweep-number>
+<vm-delta-mv type="float">0.0986862182617188</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533076</id>
+<leak-pa type="float">4.14732265472412</leak-pa>
+<num-spikes type="integer">10</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0382208526134491</post-noise-rms-mv>
+<post-vm-mv type="float">-75.3652648925781</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0427969209849834</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.8755645751953</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.156869992613792</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.8755645751953</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">269.999994584325</stimulus-absolute-amplitude>
+<stimulus-description>C2SQRHELNG150216[0]</stimulus-description>
+<stimulus-duration type="float">1.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Square - 2s Suprathreshold</stimulus-name>
+<stimulus-relative-amplitude type="float">2.70000004768372</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">78</sweep-number>
+<vm-delta-mv type="float">0.510299682617188</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532972</id>
+<leak-pa type="float">9.71835327148438</leak-pa>
+<num-spikes type="integer">1</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.032583724707365</post-noise-rms-mv>
+<post-vm-mv type="float">-76.4201583862305</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0375810079276562</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.3462677001953</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0532091595232487</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.3462677001953</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1159.99998495653</stimulus-absolute-amplitude>
+<stimulus-description>C1SSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">11.6000003814697</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">26</sweep-number>
+<vm-delta-mv type="float">0.0738906860351562</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533006</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float">-55.34375</peak-deflection>
+<post-noise-rms-mv type="float">0.0432934425771236</post-noise-rms-mv>
+<post-vm-mv type="float">-75.6149520874023</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0417016372084618</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.8094863891602</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.109943486750126</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.8094863891602</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">129.99999687846</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[12]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">43</sweep-number>
+<vm-delta-mv type="float">0.194534301757812</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533146</id>
+<leak-pa type="float">-0.619003355503082</leak-pa>
+<num-spikes type="integer">2</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.029421117156744</post-noise-rms-mv>
+<post-vm-mv type="float">-74.8975372314453</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0336557179689407</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.1626968383789</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.135058298707008</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.1626968383789</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[2]</stimulus-description>
+<stimulus-duration type="float">0.16898</stimulus-duration>
+<stimulus-interval type="float">0.083</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">110</sweep-number>
+<vm-delta-mv type="float">0.265159606933594</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532959</id>
+<leak-pa type="float">6.37573480606079</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.034520011395216</post-noise-rms-mv>
+<post-vm-mv type="float">-76.0543670654297</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0508212186396122</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.1753540039062</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.071436733007431</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.1753540039062</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1089.9999791647</stimulus-absolute-amplitude>
+<stimulus-description>C1SSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">10.8999996185303</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">21</sweep-number>
+<vm-delta-mv type="float">0.120986938476562</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float" nil="true"/>
+<id type="integer">531532899</id>
+<leak-pa type="float" nil="true"/>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float" nil="true"/>
+<post-vm-mv type="float" nil="true"/>
+<pre-noise-rms-mv type="float" nil="true"/>
+<pre-vm-mv type="float" nil="true"/>
+<slow-noise-rms-mv type="float" nil="true"/>
+<slow-vm-mv type="float" nil="true"/>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float" nil="true"/>
+<stimulus-description>EXTPSMOKET141203[0]</stimulus-description>
+<stimulus-duration type="float" nil="true"/>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Test</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float" nil="true"/>
+<stimulus-units>Volts</stimulus-units>
+<sweep-number type="integer">0</sweep-number>
+<vm-delta-mv type="float" nil="true"/>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533010</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0365623049438</post-noise-rms-mv>
+<post-vm-mv type="float">-75.6557464599609</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0416751019656658</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.8706817626953</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0702784508466721</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.8706817626953</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">170.000000188075</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[14]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">45</sweep-number>
+<vm-delta-mv type="float">0.214935302734375</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533072</id>
+<leak-pa type="float">4.14732265472412</leak-pa>
+<num-spikes type="integer">2</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0450955145061016</post-noise-rms-mv>
+<post-vm-mv type="float">-75.639030456543</post-vm-mv>
+<pre-noise-rms-mv type="float">0.038174893707037</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.5636596679688</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.126103341579437</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.5636596679688</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">230.000005152498</stimulus-absolute-amplitude>
+<stimulus-description>C2SQRHELNG150216[0]</stimulus-description>
+<stimulus-duration type="float">1.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Square - 2s Suprathreshold</stimulus-name>
+<stimulus-relative-amplitude type="float">2.29999995231628</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">76</sweep-number>
+<vm-delta-mv type="float">0.0753707885742188</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533122</id>
+<leak-pa type="float">3.77592086791992</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0411982052028179</post-noise-rms-mv>
+<post-vm-mv type="float">-75.1935501098633</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0351977311074734</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.3950576782227</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.117768250405788</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.3950576782227</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[4]</stimulus-description>
+<stimulus-duration type="float">0.04898</stimulus-duration>
+<stimulus-interval type="float">0.023</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">98</sweep-number>
+<vm-delta-mv type="float">0.201507568359375</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532955</id>
+<leak-pa type="float">6.37573480606079</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0334201641380787</post-noise-rms-mv>
+<post-vm-mv type="float">-76.2934265136719</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0398214012384415</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.331672668457</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0608128979802132</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.331672668457</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1069.99997750989</stimulus-absolute-amplitude>
+<stimulus-description>C1SSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">10.6999998092651</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">19</sweep-number>
+<vm-delta-mv type="float">0.0382461547851562</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533052</id>
+<leak-pa type="float">8.4803466796875</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0384500585496426</post-noise-rms-mv>
+<post-vm-mv type="float">-76.3502960205078</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0411421991884708</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.3585586547852</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.147405236959457</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.3585586547852</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">-200.000002670286</stimulus-absolute-amplitude>
+<stimulus-description>C1SQCAPCHK141203[0]</stimulus-description>
+<stimulus-duration type="float">7.21848</stimulus-duration>
+<stimulus-interval type="float">0.2005</stimulus-interval>
+<stimulus-name>Square - 0.5ms Subthreshold</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">0.8215</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">66</sweep-number>
+<vm-delta-mv type="float">0.00826263427734375</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533157</id>
+<leak-pa type="float">-4.58062553405762</leak-pa>
+<num-spikes type="integer">15</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.043251771479845</post-noise-rms-mv>
+<post-vm-mv type="float">-76.4524612426758</post-vm-mv>
+<pre-noise-rms-mv type="float">0.037485845386982</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.8742065429688</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.177473977208138</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.8742065429688</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">644.000019978108</stimulus-absolute-amplitude>
+<stimulus-description>C2NSRMPRH2150216[0]</stimulus-description>
+<stimulus-duration type="float">31.99996</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Ramp to Rheobase</stimulus-name>
+<stimulus-relative-amplitude type="float">1.89999997615814</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02002</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">115</sweep-number>
+<vm-delta-mv type="float">0.578254699707031</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532913</id>
+<leak-pa type="float">3.21881771087646</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0372088104486465</post-noise-rms-mv>
+<post-vm-mv type="float">-75.5344924926758</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0429661870002747</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.5861053466797</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0842744559049606</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.5861053466797</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">100.000001335143</stimulus-absolute-amplitude>
+<stimulus-description>C1SSCOARSE150112[0]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">7</sweep-number>
+<vm-delta-mv type="float">0.0516128540039062</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float" nil="true"/>
+<id type="integer">531532905</id>
+<leak-pa type="float" nil="true"/>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float" nil="true"/>
+<post-vm-mv type="float" nil="true"/>
+<pre-noise-rms-mv type="float" nil="true"/>
+<pre-vm-mv type="float" nil="true"/>
+<slow-noise-rms-mv type="float" nil="true"/>
+<slow-vm-mv type="float" nil="true"/>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float" nil="true"/>
+<stimulus-description>EXTPBREAKN141203[0]</stimulus-description>
+<stimulus-duration type="float" nil="true"/>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Test</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float" nil="true"/>
+<stimulus-units>Volts</stimulus-units>
+<sweep-number type="integer">3</sweep-number>
+<vm-delta-mv type="float" nil="true"/>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532982</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float">-87.15625</peak-deflection>
+<post-noise-rms-mv type="float">0.0446563549339771</post-noise-rms-mv>
+<post-vm-mv type="float">-75.9215240478516</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0415756367146969</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.2363586425781</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0629353821277618</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.2363586425781</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">-110.000002162547</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[0]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">31</sweep-number>
+<vm-delta-mv type="float">0.314834594726562</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533044</id>
+<leak-pa type="float">4.20922327041626</leak-pa>
+<num-spikes type="integer">36</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0425404086709023</post-noise-rms-mv>
+<post-vm-mv type="float">-75.5759124755859</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0373482294380665</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.1362762451172</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.105275526642799</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.1362762451172</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">400.749988749283</stimulus-absolute-amplitude>
+<stimulus-description>C1NSSEED_2150216[0]</stimulus-description>
+<stimulus-duration type="float">18.99998</stimulus-duration>
+<stimulus-interval type="float">8.0</stimulus-interval>
+<stimulus-name>Noise 2</stimulus-name>
+<stimulus-relative-amplitude type="float">1.70000004768372</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">62</sweep-number>
+<vm-delta-mv type="float">0.56036376953125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533058</id>
+<leak-pa type="float">8.4803466796875</leak-pa>
+<num-spikes type="integer">1</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0359004512429237</post-noise-rms-mv>
+<post-vm-mv type="float">-75.5386734008789</post-vm-mv>
+<pre-noise-rms-mv type="float">0.045231319963932</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.7875671386719</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0858226418495178</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.7875671386719</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">190.000001842883</stimulus-absolute-amplitude>
+<stimulus-description>C2SQRHELNG150216[0]</stimulus-description>
+<stimulus-duration type="float">1.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Square - 2s Suprathreshold</stimulus-name>
+<stimulus-relative-amplitude type="float">1.89999997615814</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">69</sweep-number>
+<vm-delta-mv type="float">0.248893737792969</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532957</id>
+<leak-pa type="float">6.37573480606079</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0351081751286983</post-noise-rms-mv>
+<post-vm-mv type="float">-76.2246170043945</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0378334857523441</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.2165069580078</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0632820874452591</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.2165069580078</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1079.9999783373</stimulus-absolute-amplitude>
+<stimulus-description>C1SSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">10.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">20</sweep-number>
+<vm-delta-mv type="float">0.00811004638671875</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533080</id>
+<leak-pa type="float">0.18570102751255</leak-pa>
+<num-spikes type="integer">5</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.037762526422739</post-noise-rms-mv>
+<post-vm-mv type="float">-75.2765579223633</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0427486002445221</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.4427337646484</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.10807865858078</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.4427337646484</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">269.999994584325</stimulus-absolute-amplitude>
+<stimulus-description>C2SQRHELNG150216[0]</stimulus-description>
+<stimulus-duration type="float">1.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Square - 2s Suprathreshold</stimulus-name>
+<stimulus-relative-amplitude type="float">2.70000004768372</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">80</sweep-number>
+<vm-delta-mv type="float">0.166175842285156</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533068</id>
+<leak-pa type="float">8.4803466796875</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0465835109353065</post-noise-rms-mv>
+<post-vm-mv type="float">-75.3463516235352</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0405603237450123</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.7142181396484</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0898196771740913</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.7142181396484</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">230.000005152498</stimulus-absolute-amplitude>
+<stimulus-description>C2SQRHELNG150216[0]</stimulus-description>
+<stimulus-duration type="float">1.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Square - 2s Suprathreshold</stimulus-name>
+<stimulus-relative-amplitude type="float">2.29999995231628</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">74</sweep-number>
+<vm-delta-mv type="float">0.367866516113281</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532944</id>
+<leak-pa type="float">3.21881771087646</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0437129884958267</post-noise-rms-mv>
+<post-vm-mv type="float">-76.2444915771484</post-vm-mv>
+<pre-noise-rms-mv type="float">0.042725458741188</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.1555480957031</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0568116158246994</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.1555480957031</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">900.000018955183</stimulus-absolute-amplitude>
+<stimulus-description>C1SSCOARSE150112[8]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">15</sweep-number>
+<vm-delta-mv type="float">0.0889434814453125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532924</id>
+<leak-pa type="float">3.21881771087646</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0288194511085749</post-noise-rms-mv>
+<post-vm-mv type="float">-76.5207366943359</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0363580770790577</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.4330368041992</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0603032670915127</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.4330368041992</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">599.999994133071</stimulus-absolute-amplitude>
+<stimulus-description>C1SSCOARSE150112[5]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">12</sweep-number>
+<vm-delta-mv type="float">0.0876998901367188</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532948</id>
+<leak-pa type="float">3.21881771087646</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0416576080024242</post-noise-rms-mv>
+<post-vm-mv type="float">-76.3144836425781</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0416363961994648</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.2407989501953</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.166102632880211</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.2407989501953</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">999.999971718069</stimulus-absolute-amplitude>
+<stimulus-description>C1SSCOARSE150112[9]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">16</sweep-number>
+<vm-delta-mv type="float">0.0736846923828125</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533078</id>
+<leak-pa type="float">4.14732265472412</leak-pa>
+<num-spikes type="integer">5</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0416747890412807</post-noise-rms-mv>
+<post-vm-mv type="float">-75.3853302001953</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0404695682227612</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.6004409790039</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.077222652733326</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.6004409790039</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">269.999994584325</stimulus-absolute-amplitude>
+<stimulus-description>C2SQRHELNG150216[0]</stimulus-description>
+<stimulus-duration type="float">1.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Square - 2s Suprathreshold</stimulus-name>
+<stimulus-relative-amplitude type="float">2.70000004768372</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">79</sweep-number>
+<vm-delta-mv type="float">0.215110778808594</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532996</id>
+<leak-pa type="float">13.1847724914551</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float">-71.8125</peak-deflection>
+<post-noise-rms-mv type="float">0.0448890849947929</post-noise-rms-mv>
+<post-vm-mv type="float">-75.7931518554688</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0395817048847675</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.8906478881836</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.188339695334435</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.8906478881836</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">29.9999990127642</stimulus-absolute-amplitude>
+<stimulus-description>C1LSCOARSE150216[7]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">38</sweep-number>
+<vm-delta-mv type="float">0.0974960327148438</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532953</id>
+<leak-pa type="float">3.21881771087646</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0360454246401787</post-noise-rms-mv>
+<post-vm-mv type="float">-76.4161376953125</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0475700832903385</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.3750381469727</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0549656078219414</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.3750381469727</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1049.99997585509</stimulus-absolute-amplitude>
+<stimulus-description>C1SSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">10.5</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">18</sweep-number>
+<vm-delta-mv type="float">0.0410995483398438</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532915</id>
+<leak-pa type="float">3.21881771087646</leak-pa>
+<num-spikes type="integer" nil="true"/>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0448745787143707</post-noise-rms-mv>
+<post-vm-mv type="float">-75.5876541137695</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0472934283316135</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.6023406982422</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0544437654316425</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.6023406982422</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">200.000002670286</stimulus-absolute-amplitude>
+<stimulus-description>C1SSCOARSE150112[1]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.0</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">8</sweep-number>
+<vm-delta-mv type="float">0.0146865844726562</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533028</id>
+<leak-pa type="float">8.78984832763672</leak-pa>
+<num-spikes type="integer">1</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0417377576231956</post-noise-rms-mv>
+<post-vm-mv type="float">-75.777946472168</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0444207638502121</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.60791015625</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0891155079007149</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.60791015625</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">170.000000188075</stimulus-absolute-amplitude>
+<stimulus-description>C1LSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.99998</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Long Square</stimulus-name>
+<stimulus-relative-amplitude type="float">1.70000004768372</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">54</sweep-number>
+<vm-delta-mv type="float">0.170036315917969</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531532974</id>
+<leak-pa type="float">9.71835327148438</leak-pa>
+<num-spikes type="integer">1</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0391978286206722</post-noise-rms-mv>
+<post-vm-mv type="float">-76.416748046875</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0388281606137753</pre-noise-rms-mv>
+<pre-vm-mv type="float">-76.3978652954102</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.0661987364292145</slow-noise-rms-mv>
+<slow-vm-mv type="float">-76.3978652954102</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1159.99998495653</stimulus-absolute-amplitude>
+<stimulus-description>C1SSFINEST150112[0]</stimulus-description>
+<stimulus-duration type="float">0.00298</stimulus-duration>
+<stimulus-interval type="float" nil="true"/>
+<stimulus-name>Short Square</stimulus-name>
+<stimulus-relative-amplitude type="float">11.6000003814697</stimulus-relative-amplitude>
+<stimulus-start-time type="float">1.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">27</sweep-number>
+<vm-delta-mv type="float">0.0188827514648438</vm-delta-mv>
+</ephys-sweep>
+<ephys-sweep>
+<bridge-balance-mohm type="float">11.4774112701416</bridge-balance-mohm>
+<id type="integer">531533140</id>
+<leak-pa type="float">-0.619003355503082</leak-pa>
+<num-spikes type="integer">3</num-spikes>
+<peak-deflection type="float" nil="true"/>
+<post-noise-rms-mv type="float">0.0435085818171501</post-noise-rms-mv>
+<post-vm-mv type="float">-75.1927337646484</post-vm-mv>
+<pre-noise-rms-mv type="float">0.0332036465406418</pre-noise-rms-mv>
+<pre-vm-mv type="float">-75.4944686889648</pre-vm-mv>
+<slow-noise-rms-mv type="float">0.177747666835785</slow-noise-rms-mv>
+<slow-vm-mv type="float">-75.4944686889648</slow-vm-mv>
+<specimen-id type="integer">531526539</specimen-id>
+<stimulus-absolute-amplitude type="float">1480.00001143345</stimulus-absolute-amplitude>
+<stimulus-description>C2SSTRIPLE150429[6]</stimulus-description>
+<stimulus-duration type="float">0.01898</stimulus-duration>
+<stimulus-interval type="float">0.008</stimulus-interval>
+<stimulus-name>Short Square - Triple</stimulus-name>
+<stimulus-relative-amplitude type="float">14.8000001907349</stimulus-relative-amplitude>
+<stimulus-start-time type="float">2.02</stimulus-start-time>
+<stimulus-units>Amps</stimulus-units>
+<sweep-number type="integer">107</sweep-number>
+<vm-delta-mv type="float">0.301734924316406</vm-delta-mv>
+</ephys-sweep>
+</ephys-sweeps>
+<ephys-result>
+<failed type="boolean">false</failed>
+<id type="integer">531526519</id>
+<sampling-rate type="integer">50000</sampling-rate>
+<well-known-files type="array">
+<well-known-file>
+<attachable-id type="integer">531526519</attachable-id>
+<attachable-type>EphysResult</attachable-type>
+<download-link>/api/v2/well_known_file_download/616981155</download-link>
+<id type="integer">616981155</id>
+<path>/external/mousecelltypes/prod815/Ephys_Roi_Result_531526519/531526519_ephys.nwb</path>
+<well-known-file-type-id type="integer">481007198</well-known-file-type-id>
+</well-known-file>
+</well-known-files>
+</ephys-result>
+<neuronal-models>
+<neuronal-model>
+<id type="integer">544824708</id>
+<name>1 Leaky Integrate and Fire (LIF)_H16.06.007.01.07.04</name>
+<neuron-reconstruction-id type="integer" nil="true"/>
+<neuronal-model-template-id type="integer">395310469</neuronal-model-template-id>
+<specimen-id type="integer">531526539</specimen-id>
+<neuronal-model-template>
+<description>Generalized Leaky Integrate-and-Fire Model Template</description>
+<id type="integer">395310469</id>
+<name>1 Leaky Integrate and Fire (LIF)</name>
+</neuronal-model-template>
+<neuronal-model-runs type="array">
+<neuronal-model-run>
+<explained-variance-ratio type="float">0.731715670952753</explained-variance-ratio>
+<id type="integer">568803010</id>
+<name>1 Leaky Integrate and Fire (LIF)_H16.06.007.01.07.04_run</name>
+<neuronal-model-id type="integer">544824708</neuronal-model-id>
+<rheobase-feature-average type="float" nil="true"/>
+<tags>Generalized Leaky Integrate-and-Fire Model Template 1 Leaky Integrate and Fire (LIF)</tags>
+<well-known-files type="array">
+<well-known-file>
+<attachable-id type="integer">568803010</attachable-id>
+<attachable-type>NeuronalModelRun</attachable-type>
+<download-link>/api/v2/well_known_file_download/568828741</download-link>
+<id type="integer">568828741</id>
+<path>/external/humancelltypes/prod135/neuronal_model_run_568803010/568803010_virtual_experiment.nwb</path>
+<well-known-file-type-id type="integer">478840678</well-known-file-type-id>
+</well-known-file>
+</well-known-files>
+</neuronal-model-run>
+</neuronal-model-runs>
+</neuronal-model>
+<neuronal-model>
+<id type="integer">544824712</id>
+<name>3 LIF + Afterspike Currents (LIF-ASC)_H16.06.007.01.07.04</name>
+<neuron-reconstruction-id type="integer" nil="true"/>
+<neuronal-model-template-id type="integer">395310475</neuronal-model-template-id>
+<specimen-id type="integer">531526539</specimen-id>
+<neuronal-model-template>
+<description>Generalized Leaky Integrate-and-Fire Model Template</description>
+<id type="integer">395310475</id>
+<name>3 LIF + Afterspike Currents (LIF-ASC)</name>
+</neuronal-model-template>
+<neuronal-model-runs type="array">
+<neuronal-model-run>
+<explained-variance-ratio type="float">0.817958350909351</explained-variance-ratio>
+<id type="integer">568805323</id>
+<name>3 LIF + Afterspike Currents (LIF-ASC)_H16.06.007.01.07.04_run</name>
+<neuronal-model-id type="integer">544824712</neuronal-model-id>
+<rheobase-feature-average type="float" nil="true"/>
+<tags>Generalized Leaky Integrate-and-Fire Model Template 3 LIF + Afterspike Currents (LIF-ASC)</tags>
+<well-known-files type="array">
+<well-known-file>
+<attachable-id type="integer">568805323</attachable-id>
+<attachable-type>NeuronalModelRun</attachable-type>
+<download-link>/api/v2/well_known_file_download/568836954</download-link>
+<id type="integer">568836954</id>
+<path>/external/humancelltypes/prod135/neuronal_model_run_568805323/568805323_virtual_experiment.nwb</path>
+<well-known-file-type-id type="integer">478840678</well-known-file-type-id>
+</well-known-file>
+</well-known-files>
+</neuronal-model-run>
+</neuronal-model-runs>
+</neuronal-model>
+<neuronal-model>
+<id type="integer">626170583</id>
+<name>Biophysical - perisomatic_H16.06.007.01.07.04</name>
+<neuron-reconstruction-id type="integer">582653938</neuron-reconstruction-id>
+<neuronal-model-template-id type="integer">329230710</neuronal-model-template-id>
+<specimen-id type="integer">531526539</specimen-id>
+<neuronal-model-template>
+<description>Biophysical Neuronal Model Template</description>
+<id type="integer">329230710</id>
+<name>Biophysical - perisomatic</name>
+</neuronal-model-template>
+<neuronal-model-runs type="array">
+<neuronal-model-run>
+<explained-variance-ratio type="float">0.541673559276883</explained-variance-ratio>
+<id type="integer">628880227</id>
+<name>Biophysical - perisomatic_H16.06.007.01.07.04_run</name>
+<neuronal-model-id type="integer">626170583</neuronal-model-id>
+<rheobase-feature-average type="float">2.40499258917312</rheobase-feature-average>
+<tags>Biophysical Neuronal Model Template Biophysical - perisomatic</tags>
+<well-known-files type="array">
+<well-known-file>
+<attachable-id type="integer">628880227</attachable-id>
+<attachable-type>NeuronalModelRun</attachable-type>
+<download-link>/api/v2/well_known_file_download/629774058</download-link>
+<id type="integer">629774058</id>
+<path>/external/humancelltypes/prod218/neuronal_model_run_628880227/628880227_virtual_experiment.nwb</path>
+<well-known-file-type-id type="integer">478840678</well-known-file-type-id>
+</well-known-file>
+</well-known-files>
+</neuronal-model-run>
+</neuronal-model-runs>
+</neuronal-model>
+<neuronal-model>
+<id type="integer">544824716</id>
+<name>5 LIF-R-ASC + Threshold Adaptation (LIF-R-ASC-A)_H16.06.007.01.07.04</name>
+<neuron-reconstruction-id type="integer" nil="true"/>
+<neuronal-model-template-id type="integer">395310498</neuronal-model-template-id>
+<specimen-id type="integer">531526539</specimen-id>
+<neuronal-model-template>
+<description>Generalized Leaky Integrate-and-Fire Model Template</description>
+<id type="integer">395310498</id>
+<name>5 LIF-R-ASC + Threshold Adaptation (LIF-R-ASC-A)</name>
+</neuronal-model-template>
+<neuronal-model-runs type="array">
+<neuronal-model-run>
+<explained-variance-ratio type="float">0.8395617408024</explained-variance-ratio>
+<id type="integer">568810675</id>
+<name>5 LIF-R-ASC + Threshold Adaptation (LIF-R-ASC-A)_H16.06.007.01.07.04_run</name>
+<neuronal-model-id type="integer">544824716</neuronal-model-id>
+<rheobase-feature-average type="float" nil="true"/>
+<tags>Generalized Leaky Integrate-and-Fire Model Template 5 LIF-R-ASC + Threshold Adaptation (LIF-R-ASC-A)</tags>
+<well-known-files type="array">
+<well-known-file>
+<attachable-id type="integer">568810675</attachable-id>
+<attachable-type>NeuronalModelRun</attachable-type>
+<download-link>/api/v2/well_known_file_download/568854998</download-link>
+<id type="integer">568854998</id>
+<path>/external/humancelltypes/prod136/neuronal_model_run_568810675/568810675_virtual_experiment.nwb</path>
+<well-known-file-type-id type="integer">478840678</well-known-file-type-id>
+</well-known-file>
+</well-known-files>
+</neuronal-model-run>
+</neuronal-model-runs>
+</neuronal-model>
+<neuronal-model>
+<id type="integer">544824710</id>
+<name>2 LIF + Reset Rules (LIF-R)_H16.06.007.01.07.04</name>
+<neuron-reconstruction-id type="integer" nil="true"/>
+<neuronal-model-template-id type="integer">395310479</neuronal-model-template-id>
+<specimen-id type="integer">531526539</specimen-id>
+<neuronal-model-template>
+<description>Generalized Leaky Integrate-and-Fire Model Template</description>
+<id type="integer">395310479</id>
+<name>2 LIF + Reset Rules (LIF-R)</name>
+</neuronal-model-template>
+<neuronal-model-runs type="array">
+<neuronal-model-run>
+<explained-variance-ratio type="float">0.701373805018508</explained-variance-ratio>
+<id type="integer">568805778</id>
+<name>2 LIF + Reset Rules (LIF-R)_H16.06.007.01.07.04_run</name>
+<neuronal-model-id type="integer">544824710</neuronal-model-id>
+<rheobase-feature-average type="float" nil="true"/>
+<tags>Generalized Leaky Integrate-and-Fire Model Template 2 LIF + Reset Rules (LIF-R)</tags>
+<well-known-files type="array">
+<well-known-file>
+<attachable-id type="integer">568805778</attachable-id>
+<attachable-type>NeuronalModelRun</attachable-type>
+<download-link>/api/v2/well_known_file_download/568839843</download-link>
+<id type="integer">568839843</id>
+<path>/external/humancelltypes/prod135/neuronal_model_run_568805778/568805778_virtual_experiment.nwb</path>
+<well-known-file-type-id type="integer">478840678</well-known-file-type-id>
+</well-known-file>
+</well-known-files>
+</neuronal-model-run>
+</neuronal-model-runs>
+</neuronal-model>
+<neuronal-model>
+<id type="integer">544824714</id>
+<name>4 LIF-R + Afterspike Currents (LIF-R-ASC)_H16.06.007.01.07.04</name>
+<neuron-reconstruction-id type="integer" nil="true"/>
+<neuronal-model-template-id type="integer">471355161</neuronal-model-template-id>
+<specimen-id type="integer">531526539</specimen-id>
+<neuronal-model-template>
+<description>Generalized Leaky Integrate-and-Fire Model Template</description>
+<id type="integer">471355161</id>
+<name>4 LIF-R + Afterspike Currents (LIF-R-ASC)</name>
+</neuronal-model-template>
+<neuronal-model-runs type="array">
+<neuronal-model-run>
+<explained-variance-ratio type="float">0.784604030207652</explained-variance-ratio>
+<id type="integer">568806207</id>
+<name>4 LIF-R + Afterspike Currents (LIF-R-ASC)_H16.06.007.01.07.04_run</name>
+<neuronal-model-id type="integer">544824714</neuronal-model-id>
+<rheobase-feature-average type="float" nil="true"/>
+<tags>Generalized Leaky Integrate-and-Fire Model Template 4 LIF-R + Afterspike Currents (LIF-R-ASC)</tags>
+<well-known-files type="array">
+<well-known-file>
+<attachable-id type="integer">568806207</attachable-id>
+<attachable-type>NeuronalModelRun</attachable-type>
+<download-link>/api/v2/well_known_file_download/568842119</download-link>
+<id type="integer">568842119</id>
+<path>/external/humancelltypes/prod135/neuronal_model_run_568806207/568806207_virtual_experiment.nwb</path>
+<well-known-file-type-id type="integer">478840678</well-known-file-type-id>
+</well-known-file>
+</well-known-files>
+</neuronal-model-run>
+</neuronal-model-runs>
+</neuronal-model>
+</neuronal-models>
+</specimen>
+</specimens>
+</Response>

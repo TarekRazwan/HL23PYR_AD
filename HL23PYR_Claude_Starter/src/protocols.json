@@ -1,0 +1,19 @@
+{
+  "cell_id": 531526539,
+  "protocols": [
+    {
+      "name": "sweep_45",
+      "stimulus": "long_square",
+      "amplitude_pA": 170,
+      "duration_ms": 1000,
+      "start_ms": 100
+    },
+    {
+      "name": "sweep_52",
+      "stimulus": "long_square",
+      "amplitude_pA": 310,
+      "duration_ms": 1000,
+      "start_ms": 100
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas
+matplotlib
+lxml
+neuron==8.2.3
+netpyne==1.1.1
+efel==4.1.76
+jupyterlab

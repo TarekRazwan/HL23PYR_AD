@@ -1,29 +1,41 @@
 import sys
 import os
 
+# Get absolute path to the repo root (where this file lives)
+_CELLWRAPPER_DIR = os.path.dirname(os.path.abspath(__file__))
+
 # def loadCell_HL23PYR(cellName):
 
-def loadCell_HL23PYR(cellName, ad=False):
+def loadCell_HL23PYR(cellName, ad=False, ad_stage=None):
 
-    templatepath = 'models/NeuronTemplate_HL23PYR.hoc'
-    biophysics = 'models/biophys_' + cellName + '.hoc'
-    morphpath = 'morphologies/' + cellName + '.swc'
+    templatepath = os.path.join(_CELLWRAPPER_DIR, 'models', 'NeuronTemplate_HL23PYR.hoc')
+
+    # Select biophysics file based on AD flag and stage
+    if ad:
+        if ad_stage == 1:
+            biophysics = os.path.join(_CELLWRAPPER_DIR, 'models', 'biophys_' + cellName + '_AD_Stage1.hoc')
+        elif ad_stage == 3:
+            biophysics = os.path.join(_CELLWRAPPER_DIR, 'models', 'biophys_' + cellName + '_AD_Stage3.hoc')
+        else:
+            # Default to Stage 1 if ad=True but no stage specified
+            biophysics = os.path.join(_CELLWRAPPER_DIR, 'models', 'biophys_' + cellName + '_AD_Stage1.hoc')
+    else:
+        biophysics = os.path.join(_CELLWRAPPER_DIR, 'models', 'biophys_' + cellName + '.hoc')
+
+    morphpath = os.path.join(_CELLWRAPPER_DIR, 'morphologies', cellName + '.swc')
 
     from neuron import h
     h.load_file("stdrun.hoc")
     h.load_file('import3d.hoc')
     h.xopen(biophysics)
-    
+
     try:
         h.xopen(templatepath)
     except:
         pass
 
     cell = getattr(h, 'NeuronTemplate_HL23PYR')(morphpath)
-    h.biophys_HL23PYR(cell)
-
-    if ad:
-        apply_AD_changes(cell)
+    h.biophys_HL23PYR(cell)  # This calls the proc from the loaded biophysics file
 
     print(cell)
     print("Kv3.1 gbar (soma):", cell.soma[0](0.5).gbar_Kv3_1)
@@ -98,9 +110,9 @@ def apply_AD_changes(cell):
 
 def loadCell_HL23VIP(cellName):
 
-    templatepath = 'models/NeuronTemplate_HL23VIP.hoc'
-    biophysics = 'models/biophys_' + cellName + '.hoc'
-    morphpath = 'morphologies/' + cellName + '.swc'
+    templatepath = os.path.join(_CELLWRAPPER_DIR, 'models', 'NeuronTemplate_HL23VIP.hoc')
+    biophysics = os.path.join(_CELLWRAPPER_DIR, 'models', 'biophys_' + cellName + '.hoc')
+    morphpath = os.path.join(_CELLWRAPPER_DIR, 'morphologies', cellName + '.swc')
 
     from neuron import h
 
@@ -125,9 +137,9 @@ def loadCell_HL23VIP(cellName):
 
 def loadCell_HL23PV(cellName):
 
-    templatepath = 'models/NeuronTemplate_HL23PV.hoc'
-    biophysics = 'models/biophys_' + cellName + '.hoc'
-    morphpath = 'morphologies/' + cellName + '.swc'
+    templatepath = os.path.join(_CELLWRAPPER_DIR, 'models', 'NeuronTemplate_HL23PV.hoc')
+    biophysics = os.path.join(_CELLWRAPPER_DIR, 'models', 'biophys_' + cellName + '.hoc')
+    morphpath = os.path.join(_CELLWRAPPER_DIR, 'morphologies', cellName + '.swc')
 
     from neuron import h
 
@@ -152,9 +164,9 @@ def loadCell_HL23PV(cellName):
 
 def loadCell_HL23SST(cellName):
 
-    templatepath = 'models/NeuronTemplate_HL23SST.hoc'
-    biophysics = 'models/biophys_' + cellName + '.hoc'
-    morphpath = 'morphologies/' + cellName + '.swc'
+    templatepath = os.path.join(_CELLWRAPPER_DIR, 'models', 'NeuronTemplate_HL23SST.hoc')
+    biophysics = os.path.join(_CELLWRAPPER_DIR, 'models', 'biophys_' + cellName + '.hoc')
+    morphpath = os.path.join(_CELLWRAPPER_DIR, 'morphologies', cellName + '.swc')
 
     from neuron import h
 

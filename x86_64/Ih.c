@@ -132,7 +132,7 @@ extern void hoc_reg_nmodl_filename(int, const char*);
 };
  /* declare global and static user variables */
 #define ehcn ehcn_Ih
- double ehcn = -45;
+ double ehcn = -37;
  /* some parameters have upper and lower limits */
  static HocParmLimits _hoc_parm_limits[] = {
  0,0,0
@@ -505,7 +505,7 @@ static const char* nmodl_file_text =
   "\n"
   "PARAMETER	{\n"
   "	gbar = 0.00001 (S/cm2)\n"
-  "	ehcn = -45.0 (mV)\n"
+  "	ehcn = -37.0 (mV)\n"
   "	shift1 = 154.9\n"
   "	shift2 = 11.9\n"
   "	shift3 = 0\n"

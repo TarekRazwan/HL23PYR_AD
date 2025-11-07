@@ -5,7 +5,7 @@ proc biophys_HL23PYR(){
 			Ra = 100
 			cm = 1
 			e_pas = -80
-			g_pas = 0.0000954
+			g_pas = 0.00008
 			insert Ih
 		}
 		forsec $o1.somatic {
@@ -24,7 +24,7 @@ proc biophys_HL23PYR(){
 			vshiftm_NaTg = 13
 			vshifth_NaTg = 15
 			slopem_NaTg = 7
-			gbar_Ih = 0.000148
+			gbar_Ih = 0.00008
 		}
 
 		forsec $o1.apical {

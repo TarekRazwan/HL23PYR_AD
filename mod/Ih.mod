@@ -15,7 +15,7 @@ UNITS	{
 
 PARAMETER	{
 	gbar = 0.00001 (S/cm2)
-	ehcn = -45.0 (mV)
+	ehcn = -37.0 (mV)
 	shift1 = 154.9
 	shift2 = 11.9
 	shift3 = 0
